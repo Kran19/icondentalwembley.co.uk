@@ -21,12 +21,12 @@ $current_page = 'treatments.php'; // For navbar active state
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     
     
-    <link rel="stylesheet" href="/icon-dental/assets/css/style.css?v=2">
+    <link rel="stylesheet" href="/dental/icon-dental/assets/css/style.css?v=2">
 </head>
 <body>
 
     <!-- Navbar -->
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/icon-dental/includes/navbar.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/dental/icon-dental/includes/navbar.php'; ?>
 
     <!-- Main Content -->
     <main>
@@ -35,7 +35,7 @@ $current_page = 'treatments.php'; // For navbar active state
             <div class="container" style="max-width: 1320px;">
                 <!-- Breadcrumb -->
                 <div class="breadcrumb-text">
-                    <a href="/icon-dental/index.php"><i class="fa-solid fa-house"></i> Home</a> <i class="fa-solid fa-chevron-right"></i> <a href="/icon-dental/treatments.php">Treatments</a> <i class="fa-solid fa-chevron-right"></i> <span style="color:#b1986f;">General Dentistry</span>
+                    <a href="/dental/icon-dental/index.php"><i class="fa-solid fa-house"></i> Home</a> <i class="fa-solid fa-chevron-right"></i> <a href="/dental/icon-dental/treatments.php">Treatments</a> <i class="fa-solid fa-chevron-right"></i> <span style="color:#b1986f;">General Dentistry</span>
                 </div>
 
                 <div class="row align-items-center g-5">
@@ -89,7 +89,7 @@ $current_page = 'treatments.php'; // For navbar active state
                     <div class="col-lg-6 position-relative">
                         <div class="hero-image-container">
                             <!-- JS script below will swap this source for dark mode if needed -->
-                            <img src="/icon-dental/assets/images/general.png" alt="Dentist examining smiling female patient" class="hero-img-light">
+                            <img src="/dental/icon-dental/assets/images/general.png" alt="Dentist examining smiling female patient" class="hero-img-light">
                         </div>
                         
                         <div class="floating-card">
@@ -203,7 +203,7 @@ $current_page = 'treatments.php'; // For navbar active state
     </main>
 
     <!-- Footer -->
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/icon-dental/includes/footer.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/dental/icon-dental/includes/footer.php'; ?>
 
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
@@ -214,9 +214,9 @@ $current_page = 'treatments.php'; // For navbar active state
                 if (mutation.attributeName === "class") {
                     const heroImg = document.querySelector('.hero-img-light');
                     if (document.body.classList.contains('dark-theme')) {
-                        heroImg.src = "/icon-dental/assets/images/general.png";
+                        heroImg.src = "/dental/icon-dental/assets/images/general.png";
                     } else {
-                        heroImg.src = "/icon-dental/assets/images/general.png";
+                        heroImg.src = "/dental/icon-dental/assets/images/general.png";
                     }
                 }
             });
@@ -228,7 +228,7 @@ $current_page = 'treatments.php'; // For navbar active state
 
         // Initial check
         if (document.body.classList.contains('dark-theme')) {
-            document.querySelector('.hero-img-light').src = "/icon-dental/assets/images/general.png";
+            document.querySelector('.hero-img-light').src = "/dental/icon-dental/assets/images/general.png";
         }
     </script>
 </body>

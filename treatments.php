@@ -20,12 +20,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     
     
-    <link rel="stylesheet" href="/icon-dental/assets/css/style.css?v=2">
+    <link rel="stylesheet" href="/dental/icon-dental/assets/css/style.css?v=2">
 </head>
 <body>
 
     <!-- Navbar -->
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/icon-dental/includes/navbar.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/dental/icon-dental/includes/navbar.php'; ?>
 
 
     <!-- Hero Section -->
@@ -107,7 +107,7 @@
                         <div class="t-icon-circle"><i class="fa-solid fa-tooth"></i></div>
                     </div>
                     <div class="t-content">
-                        <h3 class="t-title">General Dentistry</h3>
+                        <h3 class="t-title">Check My Teeth</h3>
                         <p class="t-desc">Keep your smile healthy with check-ups, cleans, fillings, crowns and more.</p>
                         <a href="#" class="t-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
@@ -120,7 +120,7 @@
                         <div class="t-icon-circle"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
                     </div>
                     <div class="t-content">
-                        <h3 class="t-title">Smile Makeovers</h3>
+                        <h3 class="t-title">Repair My Teeth</h3>
                         <p class="t-desc">Transform your smile with whitening, veneers, bonding and complete makeovers.</p>
                         <a href="#" class="t-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
@@ -134,7 +134,7 @@
                         <div class="t-icon-circle"><i class="fa-solid fa-teeth-open"></i></div>
                     </div>
                     <div class="t-content">
-                        <h3 class="t-title">Invisalign</h3>
+                        <h3 class="t-title">Enhance My Teeth</h3>
                         <p class="t-desc">Straighten your teeth discreetly with clear aligners for a confident smile, every day.</p>
                         <a href="#" class="t-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
@@ -147,7 +147,7 @@
                         <div class="t-icon-circle"><i class="fa-solid fa-tooth"></i></div>
                     </div>
                     <div class="t-content">
-                        <h3 class="t-title">Dental Implants</h3>
+                        <h3 class="t-title">Replace My Teeth</h3>
                         <p class="t-desc">Replace missing teeth with durable, natural-looking implant solutions.</p>
                         <a href="#" class="t-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
@@ -160,7 +160,7 @@
                         <div class="t-icon-circle"><i class="fa-solid fa-border-all"></i></div>
                     </div>
                     <div class="t-content">
-                        <h3 class="t-title">View All Treatments</h3>
+                        <h3 class="t-title">Facical Aesthetics</h3>
                         <p class="t-desc">Explore our full range of dental services tailored to you and your family.</p>
                         <a href="#" class="t-link">Explore Now <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
@@ -214,7 +214,7 @@
                     </div>
                 </div>
                 <div class="cta-actions">
-                    <a href="/icon-dental/book-online.php" class="btn-primary-custom">
+                    <a href="/dental/icon-dental/book-online.php" class="btn-primary-custom">
                         <i class="fa-regular fa-calendar"></i> Book Online
                     </a>
                     <a href="#" class="btn-outline-custom">
@@ -231,7 +231,7 @@
     
 
 
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/icon-dental/includes/footer.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/dental/icon-dental/includes/footer.php'; ?>
 </body>
 </html>
 

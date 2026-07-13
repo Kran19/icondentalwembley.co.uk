@@ -21,12 +21,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     
     
-    <link rel="stylesheet" href="/icon-dental/assets/css/style.css?v=2">
+    <link rel="stylesheet" href="/dental/icon-dental/assets/css/style.css?v=11">    
 </head>
 <body>
 
     <!-- Navbar -->
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/icon-dental/includes/navbar.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/dental/icon-dental/includes/navbar.php'; ?>
 
 
     <!-- Hero Section -->
@@ -53,10 +53,10 @@
                     <p class="hero-desc">Experience modern dentistry in a comfortable, welcoming environment where your smile comes first. We combine advanced technology with a gentle touch to deliver exceptional results.</p>
                     
                     <div class="btn-group-custom d-flex gap-3 hero-actions">
-                        <a href="/icon-dental/book-online.php" class="btn-primary-custom px-4 py-3 m-0" style="font-size: 16px;">
+                        <a href="/dental/icon-dental/book-online.php" class="btn-primary-custom px-4 py-3 m-0" style="font-size: 16px;">
                             <i class="fa-regular fa-calendar-check"></i> Book Consultation
                         </a>
-                        <a href="/icon-dental/treatments.php" class="btn-outline-custom px-4 py-3 m-0" style="font-size: 16px;">
+                        <a href="/dental/icon-dental/treatments.php" class="btn-outline-custom px-4 py-3 m-0" style="font-size: 16px;">
                             Learn More <i class="fa-solid fa-arrow-right"></i>
                         </a>
                     </div>
@@ -74,7 +74,7 @@
                     <h2 class="welcome-title text-start mb-4">Welcome to<br>Ealing Road Dental Centre</h2>
                     
                     <div class="welcome-text-content">
-                        <p class="lead-text">Established over 60 years ago, Ealing Road Dental Centre is a thriving mixed NHS and Private practice located in the heart of Wembley.</p>
+                        <p class="lead-text">Established over 60 years ago, Ealing Road Dental Centre is a thriving mixed <strong>NHS and Private Dentistry</strong> located in the heart of Wembley.</p>
                         
                         <p>Under the leadership of Principal Dentist <strong>Dr Abbas Arbabi</strong>, our team has proudly delivered holistic, patient-centred care for over 22 years. We believe in combining advanced technology with a compassionate approach, attracting a diverse community of patients who trust us with their smiles.</p>
                         
@@ -100,7 +100,7 @@
                             <a href="tel:02089983030" class="wcc-number">0208 998 3030</a>
                         </div>
                         
-                        <a href="/icon-dental/book-online.php" class="btn-primary-custom w-100 mt-4">
+                        <a href="/dental/icon-dental/book-online.php" class="btn-primary-custom w-100 mt-4">
                             <i class="fa-regular fa-calendar-check"></i> Book Online Now
                         </a>
                     </div>
@@ -314,29 +314,60 @@
     </section>
 
     <!-- New Patient CTA -->
-    <section class="section-padding">
-        <div class="container custom-container text-center">
-            <h2 class="welcome-title">New Patients Welcome</h2>
-            <p class="welcome-desc mx-auto" style="max-width: 600px;">Whether you're looking for a family dentist, cosmetic treatment, or emergency appointment, we're here to help.</p>
-            <div class="row justify-content-center mb-4">
-                <div class="col-md-8">
-                    <ul class="text-start d-inline-block" style="list-style: none; padding: 0;">
-                        <li class="mb-2"><i class="fa-solid fa-check" style="color:var(--primary-blue); margin-right:8px;"></i> Comprehensive Dental Examination & Digital X-Rays</li>
-                        <li class="mb-2"><i class="fa-solid fa-check" style="color:var(--primary-blue); margin-right:8px;"></i> Oral Health Assessment</li>
-                        <li class="mb-2"><i class="fa-solid fa-check" style="color:var(--primary-blue); margin-right:8px;"></i> Personalised Treatment Plan</li>
-                        <li class="mb-2"><i class="fa-solid fa-check" style="color:var(--primary-blue); margin-right:8px;"></i> Opportunity to Discuss Concerns</li>
-                    </ul>
+    <section class="section-padding new-patient-section">
+        <div class="container custom-container">
+            <div class="row g-5 align-items-center new-patient-row">
+                <!-- Left Column: Content -->
+                <div class="col-lg-6">
+                    <div class="new-patient-content">
+                        <span class="hero-badge"><i class="fa-solid fa-user-plus me-2"></i> NEW PATIENTS</span>
+                        <h2 class="welcome-title text-start">New Patients Welcome</h2>
+                        <p class="welcome-desc text-start" style="max-width: 100%;">Whether you're looking for a family dentist, cosmetic treatment, or emergency appointment, we're here to help.</p>
+                        
+                        <ul class="new-patient-list text-start">
+                            <li>
+                                <span class="check-icon-wrapper"><i class="fa-solid fa-check"></i></span>
+                                <span>Comprehensive Dental Examination & Digital X-Rays</span>
+                            </li>
+                            <li>
+                                <span class="check-icon-wrapper"><i class="fa-solid fa-check"></i></span>
+                                <span>Oral Health Assessment</span>
+                            </li>
+                            <li>
+                                <span class="check-icon-wrapper"><i class="fa-solid fa-check"></i></span>
+                                <span>Personalised Treatment Plan</span>
+                            </li>
+                            <li>
+                                <span class="check-icon-wrapper"><i class="fa-solid fa-check"></i></span>
+                                <span>Opportunity to Discuss Concerns</span>
+                            </li>
+                        </ul>
+                        
+                        <a href="#" class="btn-primary-custom btn-lg mt-2"><i class="fa-regular fa-calendar"></i> Book Appointment</a>
+                    </div>
+                </div>
+                
+                <!-- Right Column: Image -->
+                <div class="col-lg-6">
+                    <div class="new-patient-img-wrapper">
+                        <img src="assets/images/temp-img.jpeg" class="new-patient-img" alt="New Patients Welcome - Dental Treatment">
+                    </div>
                 </div>
             </div>
-            <a href="#" class="btn-primary-custom btn-lg"><i class="fa-regular fa-calendar"></i> Book Appointment</a>
         </div>
     </section>
+
+
+
+
+
+
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     
 
 
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/icon-dental/includes/footer.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/dental/icon-dental/includes/footer.php'; ?>
 </body>
 </html>
 

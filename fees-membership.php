@@ -20,12 +20,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     
     
-    <link rel="stylesheet" href="/icon-dental/assets/css/style.css?v=2">
+    <link rel="stylesheet" href="/dental/icon-dental/assets/css/style.css?v=2">
 </head>
 <body>
 
     <!-- Navbar -->
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/icon-dental/includes/navbar.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/dental/icon-dental/includes/navbar.php'; ?>
 
         
     <!-- Hero Section -->
@@ -140,7 +140,7 @@
     
 
 
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/icon-dental/includes/footer.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/dental/icon-dental/includes/footer.php'; ?>
 </body>
 </html>
 

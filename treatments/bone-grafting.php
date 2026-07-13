@@ -20,12 +20,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     
     
-    <link rel="stylesheet" href="/icon-dental/assets/css/style.css?v=2">
+    <link rel="stylesheet" href="/dental/icon-dental/assets/css/style.css?v=2">
 </head>
 <body>
 
     <!-- Navbar Light (Simulated active state via JS below if needed, but handled mostly via CSS) -->
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/icon-dental/includes/navbar.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/dental/icon-dental/includes/navbar.php'; ?>
 
     <!-- ==================== LIGHT VERSION ==================== -->
     <main class="light-version">
@@ -34,9 +34,9 @@
             <!-- Breadcrumb -->
             <div class="breadcrumb-custom">
                 <i class="fa-solid fa-house"></i>
-                <a href="/icon-dental/">Home</a>
+                <a href="/dental/icon-dental/">Home</a>
                 <i class="fa-solid fa-chevron-right"></i>
-                <a href="/icon-dental/treatments.php">Treatments</a>
+                <a href="/dental/icon-dental/treatments.php">Treatments</a>
                 <i class="fa-solid fa-chevron-right"></i>
                 <span class="current">Bone Grafting</span>
             </div>
@@ -189,9 +189,9 @@
             <!-- Breadcrumb -->
             <div class="breadcrumb-custom">
                 <i class="fa-solid fa-house"></i>
-                <a href="/icon-dental/">Home</a>
+                <a href="/dental/icon-dental/">Home</a>
                 <i class="fa-solid fa-chevron-right"></i>
-                <a href="/icon-dental/treatments.php">Treatments</a>
+                <a href="/dental/icon-dental/treatments.php">Treatments</a>
                 <i class="fa-solid fa-chevron-right"></i>
                 <span class="current">Bone Grafting</span>
             </div>
@@ -375,12 +375,12 @@
             <p id="modalDesc"></p>
           </div>
           <div class="modal-footer" style="justify-content: center; padding: 20px;">
-            <a href="/icon-dental/book-online.php" class="btn-primary-dark" style="text-decoration: none;">Book a Consultation <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="/dental/icon-dental/book-online.php" class="btn-primary-dark" style="text-decoration: none;">Book a Consultation <i class="fa-solid fa-arrow-right"></i></a>
           </div>
         </div>
       </div>
     </div>
 
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/icon-dental/includes/footer.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/dental/icon-dental/includes/footer.php'; ?>
 </body>
 </html>

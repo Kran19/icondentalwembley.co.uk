@@ -24,12 +24,12 @@ header("Expires: -1");
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     
     
-    <link rel="stylesheet" href="/icon-dental/assets/css/style.css?v=2">
+    <link rel="stylesheet" href="/dental/icon-dental/assets/css/style.css?v=6">
 </head>
 <body>
 
     <!-- Navbar -->
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/icon-dental/includes/navbar.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/dental/icon-dental/includes/navbar.php'; ?>
 
     <section class="book-hero">
         <div class="container custom-container">
@@ -128,7 +128,7 @@ header("Expires: -1");
                                 <div class="form-col">
                                     <div class="form-group">
                                         <label class="form-label">Preferred Date <span>*</span></label>
-                                        <input type="text" class="form-control-custom" placeholder="Select a date" required>
+                                        <input type="text" class="form-control-custom" placeholder="Select a date" onfocus="(this.type='date'); try { this.showPicker(); } catch(e) {}" onclick="if(this.type==='date') try { this.showPicker(); } catch(e) {}" onblur="if(!this.value) this.type='text'" required>
                                         <i class="fa-regular fa-calendar input-icon"></i>
                                     </div>
                                 </div>
@@ -185,6 +185,6 @@ header("Expires: -1");
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/icon-dental/includes/footer.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/dental/icon-dental/includes/footer.php'; ?>
 </body>
 </html>

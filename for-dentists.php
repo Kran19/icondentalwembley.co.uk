@@ -20,12 +20,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     
     
-    <link rel="stylesheet" href="/icon-dental/assets/css/style.css?v=2">
+    <link rel="stylesheet" href="/dental/icon-dental/assets/css/style.css?v=8">
 </head>
 <body>
 
     <!-- Navbar -->
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/icon-dental/includes/navbar.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/dental/icon-dental/includes/navbar.php'; ?>
 
         
     <!-- Hero Section -->
@@ -128,8 +128,7 @@
         <section class="why-refer-section">
             <div class="row align-items-center g-4">
                 <div class="col-lg-4">
-                    <h2 class="why-title">Why Refer to Icon Dental- Wembley?</h2>
-                    <div class="title-underline"></div>
+                    <h2 class="why-title">Why Refer To Icon Dental- <span class="why-title-highlight">Wembley?</span></h2>
                     <ul class="why-checklist">
                         <li><i class="fa-solid fa-check"></i> Specialist-led treatments and advanced technology</li>
                         <li><i class="fa-solid fa-check"></i> Comprehensive treatment planning and clear communication</li>
@@ -159,7 +158,7 @@
     
 
 
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/icon-dental/includes/footer.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/dental/icon-dental/includes/footer.php'; ?>
 </body>
 </html>
 

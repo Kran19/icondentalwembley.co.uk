@@ -24,12 +24,12 @@ header("Expires: -1");
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     
     
-    <link rel="stylesheet" href="/icon-dental/assets/css/style.css?v=2">
+    <link rel="stylesheet" href="/dental/icon-dental/assets/css/style.css?v=12">
 </head>
 <body>
 
     <!-- Navbar -->
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/icon-dental/includes/navbar.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/dental/icon-dental/includes/navbar.php'; ?>
 
 
     <!-- Hero Section -->
@@ -130,14 +130,14 @@ header("Expires: -1");
     <section class="values-section">
         <div class="container custom-container">
             <div class="row">
-                <div class="col-lg-6 pe-lg-5">
+                <div class="col-lg-6 pe-lg-5" style="padding:21px;">
                     <h2 class="section-heading">Our Values</h2>
                     <div class="values-grid">
                         <div class="value-card">
                             <div class="value-icon"><i class="fa-solid fa-tooth"></i></div>
                             <div>
                                 <h3 class="value-title">Integrity</h3>
-                                <p class="value-desc">We believe in honesty, transparency, and ethical care in everything we do.</p>
+                                <p class="value-desc">We believe in honesty, transparency, & ethical care in everything we do.</p>
                             </div>
                         </div>
                         <div class="value-card">
@@ -158,7 +158,7 @@ header("Expires: -1");
                             <div class="value-icon"><i class="fa-solid fa-microscope"></i></div>
                             <div>
                                 <h3 class="value-title">Innovation</h3>
-                                <p class="value-desc">We embrace the latest technology and techniques for better outcomes.</p>
+                                <p class="value-desc">We embrace the latest technology & techniques for better outcomes.</p>
                             </div>
                         </div>
                     </div>
@@ -190,7 +190,7 @@ header("Expires: -1");
                     </div>
                 </div>
                 <div class="cta-right">
-                    <a href="/icon-dental/book-online.php" class="btn-primary-custom">
+                    <a href="/dental/icon-dental/book-online.php" class="btn-primary-custom">
                         <i class="fa-regular fa-calendar"></i> Book Online
                     </a>
                 </div>
@@ -203,7 +203,7 @@ header("Expires: -1");
     
 
 
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/icon-dental/includes/footer.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/dental/icon-dental/includes/footer.php'; ?>
 </body>
 </html>
 

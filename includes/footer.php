@@ -21,9 +21,9 @@ if ($currentDay >= 1 && $currentDay <= 3) {
         
         <!-- Horizontal Top Bar -->
         <div class="footer-top-bar">
-            <a href="/icon-dental/index.php" class="footer-brand-logo">
-                <img src="/icon-dental/assets/images/logo-light.png" alt="Icon Dental" class="logo-light" style="height: 90px;">
-                <img src="/icon-dental/assets/images/logo-dark.png" alt="Icon Dental" class="logo-dark" style="height: 90px;">
+            <a href="/dental/icon-dental/index.php" class="footer-brand-logo">
+                <img src="/dental/icon-dental/assets/images/logo-light.png" alt="Icon Dental" class="logo-light" style="height: 140px;">
+                <img src="/dental/icon-dental/assets/images/logo-dark.png" alt="Icon Dental" class="logo-dark" style="height: 140px;">
             </a>
             
             <div class="footer-contact-row">
@@ -57,22 +57,22 @@ if ($currentDay >= 1 && $currentDay <= 3) {
             <div>
                 <h4 class="footer-title">Navigation</h4>
                 <ul class="footer-links">
-                    <li><a href="/icon-dental/index.php" class="footer-link-item">Home</a></li>
-                    <li><a href="/icon-dental/about.php" class="footer-link-item">About Us</a></li>
-                    <li><a href="/icon-dental/fees-membership.php" class="footer-link-item">Fees & Membership</a></li>
-                    <li><a href="/icon-dental/for-dentists.php" class="footer-link-item">For Dentists</a></li>
-                    <li><a href="/icon-dental/contact.php" class="footer-link-item">Contact Us</a></li>
+                    <li><a href="/dental/icon-dental/index.php" class="footer-link-item">Home</a></li>
+                    <li><a href="/dental/icon-dental/about.php" class="footer-link-item">About Us</a></li>
+                    <li><a href="/dental/icon-dental/fees-membership.php" class="footer-link-item">Fees & Membership</a></li>
+                    <li><a href="/dental/icon-dental/for-dentists.php" class="footer-link-item">For Dentists</a></li>
+                    <li><a href="/dental/icon-dental/contact.php" class="footer-link-item">Contact Us</a></li>
                 </ul>
             </div>
 
             <div>
                 <h4 class="footer-title">Expertise</h4>
                 <ul class="footer-links">
-                    <li><a href="/icon-dental/treatments.php#general" class="footer-link-item">General Dentistry</a></li>
-                    <li><a href="/icon-dental/treatments.php#cosmetic" class="footer-link-item">Cosmetic Dentistry</a></li>
-                    <li><a href="/icon-dental/treatments/bone-grafting.php" class="footer-link-item">Bone Grafting</a></li>
-                    <li><a href="/icon-dental/treatments.php#implants" class="footer-link-item">Dental Implants</a></li>
-                    <li><a href="/icon-dental/treatments.php#emergency" class="footer-link-item">Emergency Care</a></li>
+                    <li><a href="/dental/icon-dental/treatments.php#general" class="footer-link-item">General Dentistry</a></li>
+                    <li><a href="/dental/icon-dental/treatments.php#cosmetic" class="footer-link-item">Cosmetic Dentistry</a></li>
+                    <li><a href="/dental/icon-dental/treatments/bone-grafting.php" class="footer-link-item">Bone Grafting</a></li>
+                    <li><a href="/dental/icon-dental/treatments.php#implants" class="footer-link-item">Dental Implants</a></li>
+                    <li><a href="/dental/icon-dental/treatments.php#emergency" class="footer-link-item">Emergency Care</a></li>
                 </ul>
             </div>
 
@@ -97,15 +97,96 @@ if ($currentDay >= 1 && $currentDay <= 3) {
 
         <!-- Bottom Bar -->
         <div class="footer-bottom">
+            <div class="footer-left-col">
+                <!-- Testimonial/Review Widget -->
+                <div class="footer-reviews-widget" id="footerReviewsWidget">
+                    <div class="review-stars">★★★★★</div>
+                    <div class="review-carousel-container">
+                        <div class="review-slides-wrapper" id="reviewSlidesWrapper">
+                            <div class="review-slide active">
+                                <p class="review-text">"Wonderful experience! The staff is so gentle and professional."</p>
+                                <span class="review-author">- Sarah M.</span>
+                            </div>
+                            <div class="review-slide">
+                                <p class="review-text">"Best dental clinic in Wembley. Highly recommend Invisalign here."</p>
+                                <span class="review-author">- James T.</span>
+                            </div>
+                            <div class="review-slide">
+                                <p class="review-text">"Very modern facilities and extremely caring doctors."</p>
+                                <span class="review-author">- Priya K.</span>
+                            </div>
+                            <div class="review-slide">
+                                <p class="review-text">"Excellent patient care. Made me feel comfortable from start to finish."</p>
+                                <span class="review-author">- David L.</span>
+                            </div>
+                            <div class="review-slide">
+                                <p class="review-text">"Professional hygiene treatment. My teeth feel and look amazing!"</p>
+                                <span class="review-author">- Emma W.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-socials">
+                    <a href="#" class="footer-social-link instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="footer-social-link facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="footer-social-link linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
             <div class="footer-copyright">
                 &copy; <?= date('Y') ?> ICON DENTAL WEMBLEY. ALL RIGHTS RESERVED.
-            </div>
-            <div class="footer-socials">
-                <a href="#" class="footer-social-link"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#" class="footer-social-link"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="#" class="footer-social-link"><i class="fa-brands fa-linkedin-in"></i></a>
             </div>
         </div>
 
     </div>
 </footer>
+
+<!-- Testimonial Slider Script -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const wrapper = document.getElementById('reviewSlidesWrapper');
+    if (!wrapper) return;
+    
+    const slides = wrapper.querySelectorAll('.review-slide');
+    if (slides.length <= 1) return;
+    
+    let currentSlide = 0;
+    let intervalId = null;
+    
+    function showSlide(index) {
+        slides.forEach((slide, i) => {
+            if (i === index) {
+                slide.classList.add('active');
+            } else {
+                slide.classList.remove('active');
+            }
+        });
+    }
+    
+    function nextSlide() {
+        currentSlide = (currentSlide + 1) % slides.length;
+        showSlide(currentSlide);
+    }
+    
+    function startTimer() {
+        if (!intervalId) {
+            intervalId = setInterval(nextSlide, 2000);
+        }
+    }
+    
+    function stopTimer() {
+        if (intervalId) {
+            clearInterval(intervalId);
+            intervalId = null;
+        }
+    }
+    
+    const widget = document.getElementById('footerReviewsWidget');
+    if (widget) {
+        widget.addEventListener('mouseenter', stopTimer);
+        widget.addEventListener('mouseleave', startTimer);
+    }
+    
+    startTimer();
+});
+</script>

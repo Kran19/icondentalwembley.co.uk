@@ -26,9 +26,9 @@ if (!isset($current_page)) {
 <!-- Desktop Navigation -->
 <nav class="premium-glass-nav d-none d-xl-flex">
     <!-- Logo -->
-    <a href="/icon-dental/index.php" class="pgn-logo-section">
-        <img src="/icon-dental/assets/images/logo-light.png" alt="Icon Dental" class="logo-light" style="height: 90px;">
-        <img src="/icon-dental/assets/images/logo-dark.png" alt="Icon Dental" class="logo-dark" style="height: 90px;">
+    <a href="/dental/icon-dental/index.php" class="pgn-logo-section">
+        <img src="/dental/icon-dental/assets/images/logo-light.png?v=2" alt="Icon Dental" class="logo-light" style="height: 102px; padding-top: 10px; padding-bottom:10px; padding-left: 73px;">
+        <img src="/dental/icon-dental/assets/images/logo-dark.png?v=2" alt="Icon Dental" class="logo-dark" style="height: 102px; padding-top: 10px; padding-bottom:10px; padding-left: 73px;">
     </a>
     
     <div class="pgn-divider"></div>
@@ -36,55 +36,55 @@ if (!isset($current_page)) {
     <!-- Menu -->
     <div class="pgn-menu-section">
         <!-- Home -->
-        <a href="/icon-dental/index.php" class="pgn-menu-item <?= ($current_page == 'index.php') ? 'active' : '' ?>">
+        <a href="/dental/icon-dental/index.php" class="pgn-menu-item <?= ($current_page == 'index.php') ? 'active' : '' ?>">
             <i class="fa-solid fa-house pgn-menu-icon"></i>
             <span class="pgn-menu-text">Home</span>
         </a>
         
         <!-- About Dropdown -->
         <div class="pgn-dropdown">
-            <a href="/icon-dental/about.php" class="pgn-menu-item <?= (strpos($current_page, 'about') !== false || strpos($current_page, 'smile-stories') !== false || strpos($current_page, 'meet-the-team') !== false || strpos($current_page, 'why-choose-us') !== false) ? 'active' : '' ?>">
+            <a href="/dental/icon-dental/about.php" class="pgn-menu-item <?= (strpos($current_page, 'about') !== false || strpos($current_page, 'smile-stories') !== false || strpos($current_page, 'meet-the-team') !== false || strpos($current_page, 'why-choose-us') !== false) ? 'active' : '' ?>">
                 <i class="fa-solid fa-user-group pgn-menu-icon"></i>
                 <span class="pgn-menu-text">About <i class="fa-solid fa-chevron-down"></i></span>
             </a>
             <div class="pgn-dropdown-menu">
-                <a href="/icon-dental/about.php" class="pgn-dropdown-item">About Us</a>
-                <a href="/icon-dental/about/why-choose-us.php" class="pgn-dropdown-item">Why Choose Us</a>
-                <a href="/icon-dental/about/meet-the-team.php" class="pgn-dropdown-item">Meet The Team</a>
-                <a href="/icon-dental/about/smile-stories.php" class="pgn-dropdown-item">Smile Stories</a>
+                <a href="/dental/icon-dental/about.php" class="pgn-dropdown-item">About Us</a>
+                <a href="/dental/icon-dental/about/why-choose-us.php" class="pgn-dropdown-item">Why Choose Us</a>
+                <a href="/dental/icon-dental/about/meet-the-team.php" class="pgn-dropdown-item">Meet The Team</a>
+                <a href="/dental/icon-dental/about/smile-stories.php" class="pgn-dropdown-item">Smile Stories</a>
             </div>
         </div>
         
         <!-- Treatments Dropdown -->
         <div class="pgn-dropdown">
-            <a href="/icon-dental/treatments.php" class="pgn-menu-item <?= ($current_page == 'treatments.php') ? 'active' : '' ?>">
+            <a href="/dental/icon-dental/treatments.php" class="pgn-menu-item <?= ($current_page == 'treatments.php') ? 'active' : '' ?>">
                 <i class="fa-solid fa-tooth pgn-menu-icon"></i>
                 <span class="pgn-menu-text">Treatments <i class="fa-solid fa-chevron-down"></i></span>
             </a>
             <div class="pgn-dropdown-menu">
-                <a href="/icon-dental/treatments.php" class="pgn-dropdown-item">View All Treatments</a>
-                <a href="/icon-dental/treatments/general-dentistry.php" class="pgn-dropdown-item">General Dentistry</a>
-                <a href="/icon-dental/treatments/cosmetic-dentistry.php" class="pgn-dropdown-item">Cosmetic Dentistry</a>
-                <a href="/icon-dental/treatments/bone-grafting.php" class="pgn-dropdown-item">Bone Grafting</a>
-                <a href="/icon-dental/treatments.php#implants" class="pgn-dropdown-item">Dental Implants</a>
+                <a href="/dental/icon-dental/treatments.php" class="pgn-dropdown-item">View All Treatments</a>
+                <a href="/dental/icon-dental/treatments/general-dentistry.php" class="pgn-dropdown-item">General Dentistry</a>
+                <a href="/dental/icon-dental/treatments/cosmetic-dentistry.php" class="pgn-dropdown-item">Cosmetic Dentistry</a>
+                <a href="/dental/icon-dental/treatments/bone-grafting.php" class="pgn-dropdown-item">Bone Grafting</a>
+                <a href="/dental/icon-dental/treatments.php#implants" class="pgn-dropdown-item">Dental Implants</a>
             </div>
         </div>
         
         <!-- Fees & Membership -->
-        <a href="/icon-dental/fees-membership.php" class="pgn-menu-item <?= ($current_page == 'fees-membership.php') ? 'active' : '' ?>">
+        <a href="/dental/icon-dental/fees-membership.php" class="pgn-menu-item <?= ($current_page == 'fees-membership.php') ? 'active' : '' ?>">
             <i class="fa-regular fa-credit-card pgn-menu-icon"></i>
             <span class="pgn-menu-text">Fees &amp; Membership</span>
         </a>
         
         <!-- For Dentists Dropdown -->
         <div class="pgn-dropdown">
-            <a href="/icon-dental/for-dentists.php" class="pgn-menu-item <?= ($current_page == 'for-dentists.php') ? 'active' : '' ?>">
+            <a href="/dental/icon-dental/for-dentists.php" class="pgn-menu-item <?= ($current_page == 'for-dentists.php') ? 'active' : '' ?>">
                 <i class="fa-solid fa-user-doctor pgn-menu-icon"></i>
                 <span class="pgn-menu-text">For Dentists <i class="fa-solid fa-chevron-down"></i></span>
             </a>
             <div class="pgn-dropdown-menu">
-                <a href="/icon-dental/for-dentists.php" class="pgn-dropdown-item">Refer a Patient</a>
-                <a href="/icon-dental/for-dentists.php#careers" class="pgn-dropdown-item">Education &amp; Careers</a>
+                <a href="/dental/icon-dental/for-dentists.php" class="pgn-dropdown-item">Refer a Patient</a>
+                <a href="/dental/icon-dental/for-dentists.php#careers" class="pgn-dropdown-item">Education &amp; Careers</a>
             </div>
         </div>
     </div>
@@ -98,7 +98,7 @@ if (!isset($current_page)) {
         </button>
 
         <!-- CTA Button -->
-        <a href="/icon-dental/book-online.php" class="pgn-btn-book">
+        <a href="/dental/icon-dental/book-online.php" class="pgn-btn-book">
             <i class="fa-regular fa-calendar" style="font-size:24px;"></i> 
             Book Online 
             <i class="fa-solid fa-arrow-right" style="font-size:20px;"></i>
@@ -114,9 +114,9 @@ if (!isset($current_page)) {
     </button>
     
     <!-- Center: Logo -->
-    <a href="/icon-dental/index.php" class="pgn-logo-section-mobile" style="position: absolute; left: 50%; transform: translateX(-50%); margin: 0; padding: 0;">
-        <img src="/icon-dental/assets/images/logo-light.png" alt="Icon Dental" class="logo-light" style="height: 65px;">
-        <img src="/icon-dental/assets/images/logo-dark.png" alt="Icon Dental" class="logo-dark" style="height: 65px;">
+    <a href="/dental/icon-dental/index.php" class="pgn-logo-section-mobile" style="position: absolute; left: 50%; transform: translateX(-50%); margin: 0; padding: 0;">
+        <img src="/dental/icon-dental/assets/images/logo-light.png?v=2" alt="Icon Dental" class="logo-light" style="height: 65px;">
+        <img src="/dental/icon-dental/assets/images/logo-dark.png?v=2" alt="Icon Dental" class="logo-dark" style="height: 65px;">
     </a>
     
     <!-- Right: Theme Toggle & Login Button -->
@@ -135,52 +135,52 @@ if (!isset($current_page)) {
 
 <!-- Mobile Slide-Down Menu -->
 <div class="pgn-mobile-menu" id="pgnMobileMenu">
-    <a href="/icon-dental/index.php" class="pgn-mobile-item <?= ($current_page == 'index.php') ? 'active' : '' ?>">
+    <a href="/dental/icon-dental/index.php" class="pgn-mobile-item <?= ($current_page == 'index.php') ? 'active' : '' ?>">
         <i class="fa-solid fa-house"></i> Home
     </a>
     
     <div class="pgn-mobile-group">
         <div class="pgn-mobile-item-container">
-            <a href="/icon-dental/about.php" class="pgn-mobile-item <?= (strpos($current_page, 'about') !== false) ? 'active' : '' ?>">
+            <a href="/dental/icon-dental/about.php" class="pgn-mobile-item <?= (strpos($current_page, 'about') !== false) ? 'active' : '' ?>">
                 <i class="fa-solid fa-user-group"></i> About
             </a>
             <button class="pgn-submenu-toggle"><i class="fa-solid fa-chevron-right"></i></button>
         </div>
         <div class="pgn-mobile-submenu">
-            <a href="/icon-dental/about/why-choose-us.php" class="pgn-mobile-subitem">Why Choose Us</a>
-            <a href="/icon-dental/about/meet-the-team.php" class="pgn-mobile-subitem">Meet The Team</a>
-            <a href="/icon-dental/about/smile-stories.php" class="pgn-mobile-subitem">Smile Stories</a>
+            <a href="/dental/icon-dental/about/why-choose-us.php" class="pgn-mobile-subitem">Why Choose Us</a>
+            <a href="/dental/icon-dental/about/meet-the-team.php" class="pgn-mobile-subitem">Meet The Team</a>
+            <a href="/dental/icon-dental/about/smile-stories.php" class="pgn-mobile-subitem">Smile Stories</a>
         </div>
     </div>
     
     <div class="pgn-mobile-group">
         <div class="pgn-mobile-item-container">
-            <a href="/icon-dental/treatments.php" class="pgn-mobile-item <?= ($current_page == 'treatments.php') ? 'active' : '' ?>">
+            <a href="/dental/icon-dental/treatments.php" class="pgn-mobile-item <?= ($current_page == 'treatments.php') ? 'active' : '' ?>">
                 <i class="fa-solid fa-tooth"></i> Treatments
             </a>
             <button class="pgn-submenu-toggle"><i class="fa-solid fa-chevron-right"></i></button>
         </div>
         <div class="pgn-mobile-submenu">
-            <a href="/icon-dental/treatments/general-dentistry.php" class="pgn-mobile-subitem">General Dentistry</a>
-            <a href="/icon-dental/treatments/cosmetic-dentistry.php" class="pgn-mobile-subitem">Cosmetic Dentistry</a>
-            <a href="/icon-dental/treatments/bone-grafting.php" class="pgn-mobile-subitem">Bone Grafting</a>
-            <a href="/icon-dental/treatments.php#implants" class="pgn-mobile-subitem">Dental Implants</a>
+            <a href="/dental/icon-dental/treatments/general-dentistry.php" class="pgn-mobile-subitem">General Dentistry</a>
+            <a href="/dental/icon-dental/treatments/cosmetic-dentistry.php" class="pgn-mobile-subitem">Cosmetic Dentistry</a>
+            <a href="/dental/icon-dental/treatments/bone-grafting.php" class="pgn-mobile-subitem">Bone Grafting</a>
+            <a href="/dental/icon-dental/treatments.php#implants" class="pgn-mobile-subitem">Dental Implants</a>
         </div>
     </div>
     
-    <a href="/icon-dental/fees-membership.php" class="pgn-mobile-item <?= ($current_page == 'fees-membership.php') ? 'active' : '' ?>">
+    <a href="/dental/icon-dental/fees-membership.php" class="pgn-mobile-item <?= ($current_page == 'fees-membership.php') ? 'active' : '' ?>">
         <i class="fa-regular fa-credit-card"></i> Fees &amp; Membership
     </a>
     
     <div class="pgn-mobile-group">
         <div class="pgn-mobile-item-container">
-            <a href="/icon-dental/for-dentists.php" class="pgn-mobile-item <?= ($current_page == 'for-dentists.php') ? 'active' : '' ?>">
+            <a href="/dental/icon-dental/for-dentists.php" class="pgn-mobile-item <?= ($current_page == 'for-dentists.php') ? 'active' : '' ?>">
                 <i class="fa-solid fa-user-doctor"></i> For Dentists
             </a>
             <button class="pgn-submenu-toggle"><i class="fa-solid fa-chevron-right"></i></button>
         </div>
         <div class="pgn-mobile-submenu">
-            <a href="/icon-dental/for-dentists.php#careers" class="pgn-mobile-subitem">Education &amp; Careers</a>
+            <a href="/dental/icon-dental/for-dentists.php#careers" class="pgn-mobile-subitem">Education &amp; Careers</a>
         </div>
     </div>
 
@@ -198,7 +198,7 @@ if (!isset($current_page)) {
     </a>
 
     <!-- Book Online button inside hamburger menu -->
-    <a href="/icon-dental/book-online.php" class="pgn-mobile-book-btn">
+    <a href="/dental/icon-dental/book-online.php" class="pgn-mobile-book-btn">
         <i class="fa-regular fa-calendar"></i>
         Book Online
         <i class="fa-solid fa-arrow-right"></i>
