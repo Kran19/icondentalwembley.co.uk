@@ -9796,35 +9796,7 @@
             }
         }
 
-        /* Light theme overrides for homepage treatment cards */
-        body.light-theme .home-treatment-card {
-            background: #ffffff !important;
-            color: #3f4b3d;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
-        }
-        body.light-theme .home-treatment-card .card-title {
-            color: #3f4b3d;
-        }
-        body.light-theme .home-treatment-card .card-desc {
-            color: #555555;
-        }
-        body.light-theme .home-treatment-card .card-list li {
-            color: #3f4b3d;
-        }
-        body.light-theme .home-treatment-card .card-btn {
-            background: #b1986f;
-            border-color: #b1986f;
-            color: #ffffff;
-        }
-        body.light-theme .home-treatment-card .card-btn:hover {
-            background: #9f875e;
-            border-color: #9f875e;
-            color: #ffffff;
-        }
-        body.light-theme .home-treatment-card:hover {
-            box-shadow: 0 20px 40px rgba(177, 152, 111, 0.15);
-            border-color: rgba(177, 152, 111, 0.6);
-        }
+
 
 
 
