@@ -1,0 +1,58 @@
+    <!-- Features Section -->
+    <section>
+        <div class="container custom-container">
+            <div class="feature-grid">
+                <!-- Feature 1 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-tooth"></i>
+                    </div>
+                    <h3 class="feature-title">Experienced Team</h3>
+                    <p class="feature-desc">Highly skilled dentists with years of expertise across all areas of dental care.</p>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-laptop-medical"></i>
+                    </div>
+                    <h3 class="feature-title">Advanced Technology</h3>
+                    <p class="feature-desc">We use the latest dental technology for precise diagnosis and treatments.</p>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <h3 class="feature-title">Patient Focused</h3>
+                    <p class="feature-desc">Your comfort, health, and goals are always our top priority.</p>
+                </div>
+
+                <!-- Feature 4 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                    <h3 class="feature-title">Honest & Transparent</h3>
+                    <p class="feature-desc">Open communication and clear pricing with no hidden surprises.</p>
+                </div>
+
+                <!-- Feature 5 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fa-regular fa-calendar"></i>
+                    </div>
+                    <h3 class="feature-title">Convenient Care</h3>
+                    <p class="feature-desc">Flexible appointments and a welcoming environment for the whole family.</p>
+                </div>
+
+                <!-- Feature 6 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fa-regular fa-face-smile"></i>
+                    </div>
+                    <h3 class="feature-title">Beautiful Results</h3>
+                    <p class="feature-desc">We are dedicated to delivering healthy, natural looking smiles that last.</p>
+                </div>
+            </div>

@@ -1,31 +1,8 @@
 <?php
 // treatments.php
+$page_title = "Icon Dental- Wembley | Treatments";
+include __DIR__ . '/includes/header.php';
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Icon Dental- Wembley | Treatments</title>
-    
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-    
-    <!-- Bootstrap 5 CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    
-    <!-- Font Awesome CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    
-    
-    <link rel="stylesheet" href="/dental/icon-dental/assets/css/style.css?v=2">
-</head>
-<body>
-
-    <!-- Navbar -->
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/dental/icon-dental/includes/navbar.php'; ?>
 
 
     <!-- Hero Section -->
@@ -85,10 +62,10 @@
                         <img src="assets/images/stories/hero.png" alt="Patient and Dentist">
                         
                         <!-- Floating Quote Card -->
-                        <div class="floating-quote-card">
+                        <!-- <div class="floating-quote-card">
                             <div class="quote-icon"><i class="fa-regular fa-heart"></i></div>
                             <h3 class="quote-text">Your smile<br>is our passion</h3>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -109,7 +86,7 @@
                     <div class="t-content">
                         <h3 class="t-title">Check My Teeth</h3>
                         <p class="t-desc">Keep your smile healthy with check-ups, cleans, fillings, crowns and more.</p>
-                        <a href="#" class="t-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="treatments/check-my-teeth.php" class="t-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
 
@@ -122,7 +99,7 @@
                     <div class="t-content">
                         <h3 class="t-title">Repair My Teeth</h3>
                         <p class="t-desc">Transform your smile with whitening, veneers, bonding and complete makeovers.</p>
-                        <a href="#" class="t-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="treatments/repair-my-teeth.php" class="t-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
 
@@ -136,7 +113,7 @@
                     <div class="t-content">
                         <h3 class="t-title">Enhance My Teeth</h3>
                         <p class="t-desc">Straighten your teeth discreetly with clear aligners for a confident smile, every day.</p>
-                        <a href="#" class="t-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="treatments/enhance-my-teeth.php" class="t-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
 
@@ -149,7 +126,7 @@
                     <div class="t-content">
                         <h3 class="t-title">Replace My Teeth</h3>
                         <p class="t-desc">Replace missing teeth with durable, natural-looking implant solutions.</p>
-                        <a href="#" class="t-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="treatments/replace-my-teeth.php" class="t-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
 
@@ -160,9 +137,9 @@
                         <div class="t-icon-circle"><i class="fa-solid fa-border-all"></i></div>
                     </div>
                     <div class="t-content">
-                        <h3 class="t-title">Facical Aesthetics</h3>
+                        <h3 class="t-title">Facial Aesthetics</h3>
                         <p class="t-desc">Explore our full range of dental services tailored to you and your family.</p>
-                        <a href="#" class="t-link">Explore Now <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="treatments/facial-aesthetics.php" class="t-link">Explore Now <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -214,7 +191,7 @@
                     </div>
                 </div>
                 <div class="cta-actions">
-                    <a href="/dental/icon-dental/book-online.php" class="btn-primary-custom">
+                    <a href="<?php echo $base_url; ?>/book-online.php" class="btn-primary-custom">
                         <i class="fa-regular fa-calendar"></i> Book Online
                     </a>
                     <a href="#" class="btn-outline-custom">
@@ -226,14 +203,7 @@
         </div>
     </section>
 
-    <!-- Scripts -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    
-
-
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/dental/icon-dental/includes/footer.php'; ?>
-</body>
-</html>
+    <?php include __DIR__ . '/includes/footer.php'; ?>
 
 
 

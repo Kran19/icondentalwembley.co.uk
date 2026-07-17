@@ -1,31 +1,8 @@
 <?php
-// treatments/orthodontics.php
+// treatments/bone-grafting.php
+$page_title = "Bone Grafting | Icon Dental Wembley";
+include dirname(__DIR__) . '/includes/header.php';
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bone Grafting | Icon Dental Wembley</title>
-    
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-    
-    <!-- Bootstrap 5 CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    
-    <!-- Font Awesome CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    
-    
-    <link rel="stylesheet" href="/dental/icon-dental/assets/css/style.css?v=2">
-</head>
-<body>
-
-    <!-- Navbar Light (Simulated active state via JS below if needed, but handled mostly via CSS) -->
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/dental/icon-dental/includes/navbar.php'; ?>
 
     <!-- ==================== LIGHT VERSION ==================== -->
     <main class="light-version">
@@ -34,9 +11,9 @@
             <!-- Breadcrumb -->
             <div class="breadcrumb-custom">
                 <i class="fa-solid fa-house"></i>
-                <a href="/dental/icon-dental/">Home</a>
+                <a href="<?php echo $base_url; ?>/">Home</a>
                 <i class="fa-solid fa-chevron-right"></i>
-                <a href="/dental/icon-dental/treatments.php">Treatments</a>
+                <a href="<?php echo $base_url; ?>/treatments.php">Treatments</a>
                 <i class="fa-solid fa-chevron-right"></i>
                 <span class="current">Bone Grafting</span>
             </div>
@@ -87,10 +64,10 @@
                         <img src="../assets/images/orthodontics-hero.jpg" alt="Smiling woman holding aligners">
                         <div class="floating-card">
                             <div class="floating-icon"><i class="fa-solid fa-tooth"></i></div>
-                            <div>
+                            <!-- <div>
                                 <h3 class="floating-text">Your Journey to a<br>Straighter Smile<br>Starts Here.</h3>
                                 <div class="floating-line"></div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -189,9 +166,9 @@
             <!-- Breadcrumb -->
             <div class="breadcrumb-custom">
                 <i class="fa-solid fa-house"></i>
-                <a href="/dental/icon-dental/">Home</a>
+                <a href="<?php echo $base_url; ?>/">Home</a>
                 <i class="fa-solid fa-chevron-right"></i>
-                <a href="/dental/icon-dental/treatments.php">Treatments</a>
+                <a href="<?php echo $base_url; ?>/treatments.php">Treatments</a>
                 <i class="fa-solid fa-chevron-right"></i>
                 <span class="current">Bone Grafting</span>
             </div>
@@ -240,12 +217,12 @@
                 <div class="col-lg-6">
                     <div class="hero-image-container">
                         <img src="../assets/images/orthodontics-hero.jpg" alt="Smiling woman holding aligners">
-                        <div class="floating-card">
-                            <div class="floating-icon"><i class="fa-solid fa-tooth"></i></div>
-                            <div>
+                        <!-- <div class="floating-card"> -->
+                            <!-- <div class="floating-icon"><i class="fa-solid fa-tooth"></i></div> -->
+                            <!-- <div>
                                 <h3 class="floating-text">Your Journey to a<br>Straighter Smile<br>Starts Here.</h3>
                                 <div class="floating-line"></div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -324,7 +301,7 @@
                         </div>
                     </div>
                     <div class="cta-right">
-                        <a href="#" class="btn-primary-dark" style="background: #b1986f; color: #173a28;">
+                        <a href="<?php echo $base_url; ?>/book-online.php" class="btn-primary-dark" style="background: #b1986f; color: #173a28;">
                             Book Your Consultation <i class="fa-solid fa-arrow-right"></i>
                         </a>
                         <div class="sparkle-icon">
@@ -375,12 +352,10 @@
             <p id="modalDesc"></p>
           </div>
           <div class="modal-footer" style="justify-content: center; padding: 20px;">
-            <a href="/dental/icon-dental/book-online.php" class="btn-primary-dark" style="text-decoration: none;">Book a Consultation <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="<?php echo $base_url; ?>/book-online.php" class="btn-primary-dark" style="text-decoration: none;">Book a Consultation <i class="fa-solid fa-arrow-right"></i></a>
           </div>
         </div>
       </div>
     </div>
 
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/dental/icon-dental/includes/footer.php'; ?>
-</body>
-</html>
+    <?php include dirname(__DIR__) . '/includes/footer.php'; ?>

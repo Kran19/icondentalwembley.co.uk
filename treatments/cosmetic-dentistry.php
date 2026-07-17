@@ -1,32 +1,9 @@
 <?php
 // treatments/cosmetic-dentistry.php
 $current_page = 'treatments.php'; // For navbar active state
+$page_title = "Cosmetic Dentistry - Icon Dental Wembley";
+include dirname(__DIR__) . '/includes/header.php';
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cosmetic Dentistry - Icon Dental Wembley</title>
-    
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-    
-    <!-- Bootstrap 5 CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    
-    <!-- Font Awesome CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    
-    
-    <link rel="stylesheet" href="/dental/icon-dental/assets/css/style.css?v=2">
-</head>
-<body>
-
-    <!-- Navbar -->
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/dental/icon-dental/includes/navbar.php'; ?>
 
     <!-- Main Content -->
     <main>
@@ -35,7 +12,7 @@ $current_page = 'treatments.php'; // For navbar active state
             <div class="container" style="max-width: 1320px;">
                 <!-- Breadcrumb -->
                 <div class="breadcrumb-text">
-                    <a href="/dental/icon-dental/index.php"><i class="fa-solid fa-house"></i> Home</a> <i class="fa-solid fa-chevron-right"></i> <a href="/dental/icon-dental/treatments.php">Treatments</a> <i class="fa-solid fa-chevron-right"></i> <span style="color:#b1986f;">Cosmetic Dentistry</span>
+                    <a href="<?php echo $base_url; ?>/index.php"><i class="fa-solid fa-house"></i> Home</a> <i class="fa-solid fa-chevron-right"></i> <a href="<?php echo $base_url; ?>/treatments.php">Treatments</a> <i class="fa-solid fa-chevron-right"></i> <span style="color:#b1986f;">Cosmetic Dentistry</span>
                 </div>
 
                 <div class="row align-items-center g-5">
@@ -98,15 +75,15 @@ $current_page = 'treatments.php'; // For navbar active state
                     <!-- Right Column -->
                     <div class="col-lg-6 position-relative">
                         <div class="hero-image-container">
-                            <img src="/dental/icon-dental/assets/images/smile.png" alt="Smiling woman" class="hero-img-light">
+                            <img src="<?php echo $base_url; ?>/assets/images/smile.png" alt="Smiling woman" class="hero-img-light">
                         </div>
                         
-                        <div class="floating-card">
+                        <!-- <div class="floating-card">
                             <i class="fa-solid fa-tooth"></i>
                             <div class="floating-card-text">
                                 A Smile You'll<br>Love to Share.
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -188,7 +165,7 @@ $current_page = 'treatments.php'; // For navbar active state
                         </div>
                     </div>
                     <div class="cta-strip-right">
-                        <a href="#" class="btn-primary-custom" style="padding: 12px 28px; font-size: 15px;">Book an Appointment <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="<?php echo $base_url; ?>/book-online.php" class="btn-primary-custom" style="padding: 12px 28px; font-size: 15px;">Book an Appointment <i class="fa-solid fa-arrow-right"></i></a>
                         <i class="fa-solid fa-wand-magic-sparkles sparkle-icon"></i>
                     </div>
                 </div>
@@ -196,11 +173,6 @@ $current_page = 'treatments.php'; // For navbar active state
         </section>
     </main>
 
-    <!-- Footer -->
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/dental/icon-dental/includes/footer.php'; ?>
-
-    <!-- Scripts -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script>
         // Check for theme changes to swap hero image if needed
         const bodyObserver = new MutationObserver(function(mutations) {
@@ -208,9 +180,9 @@ $current_page = 'treatments.php'; // For navbar active state
                 if (mutation.attributeName === "class") {
                     const heroImg = document.querySelector('.hero-img-light');
                     if (document.body.classList.contains('dark-theme')) {
-                        heroImg.src = "/dental/icon-dental/assets/images/smile.png";
+                        heroImg.src = "<?php echo $base_url; ?>/assets/images/smile.png";
                     } else {
-                        heroImg.src = "/dental/icon-dental/assets/images/smile.png";
+                        heroImg.src = "<?php echo $base_url; ?>/assets/images/smile.png";
                     }
                 }
             });
@@ -222,8 +194,8 @@ $current_page = 'treatments.php'; // For navbar active state
 
         // Initial check
         if (document.body.classList.contains('dark-theme')) {
-            document.querySelector('.hero-img-light').src = "/dental/icon-dental/assets/images/smile.png";
+            document.querySelector('.hero-img-light').src = "<?php echo $base_url; ?>/assets/images/smile.png";
         }
     </script>
-</body>
-</html>
+
+    <?php include dirname(__DIR__) . '/includes/footer.php'; ?>

@@ -1,31 +1,9 @@
+
 <?php
 // fees-membership.php
+$page_title = "Fee Guide - Icon Dental Wembley";
+include __DIR__ . '/includes/header.php';
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fee Guide - Icon Dental Wembley</title>
-    
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-    
-    <!-- Bootstrap 5 CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    
-    <!-- Font Awesome CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    
-    
-    <link rel="stylesheet" href="/dental/icon-dental/assets/css/style.css?v=2">
-</head>
-<body>
-
-    <!-- Navbar -->
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/dental/icon-dental/includes/navbar.php'; ?>
 
         
     <!-- Hero Section -->
@@ -75,10 +53,10 @@
                     <div class="hero-image-wrapper">
                         <img src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Luxury Dental Reception" class="hero-image">
                         
-                        <div class="floating-card">
+                        <!-- <div class="floating-card">
                             <div class="fc-icon"><i class="fa-solid fa-users"></i></div>
                             <p class="fc-text">Join 1000+<br>happy members<br><span style="font-size:13px; font-weight:400; color:var(--text-gray);">across Wembley</span></p>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -97,7 +75,7 @@
                             <i class="fa-solid fa-circle-exclamation" style="color: var(--primary-blue); font-size: 24px; margin-top: 4px;"></i>
                             <div>
                                 <h4 style="margin: 0 0 8px 0; font-size: 18px; font-family: var(--body-font); font-weight: 600; color: var(--dark-navy);" class="alert-title">Important Appointment Information</h4>
-                                <p style="margin: 0; font-size: 15px; line-height: 1.6;">In order to book an appointment, a deposit of <strong>£100</strong> is required for all Private Dental Treatments.<br>Failure to cancel your Dental Hygiene appointment may result in a cancellation fee.</p>
+                                <p style="margin: 0; font-size: 15px; line-height: 1.6;"> For all private appointments and treatments, a deposit will be required. Failure to cancel your appointments 24 hours in advance of your appointments will result in a cancellation fee. </p>
                             </div>
                         </div>
                     </div>
@@ -135,14 +113,7 @@
         </div>
     </section>
 
-    <!-- Bootstrap JS Bundle -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    
-
-
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/dental/icon-dental/includes/footer.php'; ?>
-</body>
-</html>
+    <?php include __DIR__ . '/includes/footer.php'; ?>
 
 
 

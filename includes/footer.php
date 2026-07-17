@@ -1,6 +1,20 @@
 <?php
 // includes/footer.php
 
+if (!isset($base_url)) {
+    $doc_root = str_replace('\\', '/', $_SERVER['DOCUMENT_ROOT']);
+    $proj_root = str_replace('\\', '/', dirname(__DIR__));
+    if (strncasecmp($proj_root, $doc_root, strlen($doc_root)) === 0) {
+        $base_url = substr($proj_root, strlen($doc_root));
+    } else {
+        $base_url = '';
+    }
+    $base_url = '/' . ltrim($base_url, '/');
+    if ($base_url === '/') {
+        $base_url = '';
+    }
+}
+
 date_default_timezone_set('Europe/London');
 $currentDay = date('N'); // 1 (Mon) to 7 (Sun)
 $currentHour = (int)date('G');
@@ -21,28 +35,28 @@ if ($currentDay >= 1 && $currentDay <= 3) {
         
         <!-- Horizontal Top Bar -->
         <div class="footer-top-bar">
-            <a href="/dental/icon-dental/index.php" class="footer-brand-logo">
-                <img src="/dental/icon-dental/assets/images/logo-light.png" alt="Icon Dental" class="logo-light" style="height: 140px;">
-                <img src="/dental/icon-dental/assets/images/logo-dark.png" alt="Icon Dental" class="logo-dark" style="height: 140px;">
+            <a href="<?php echo $base_url; ?>/index.php" class="footer-brand-logo">
+                <img src="<?php echo $base_url; ?>/assets/images/logo-light.png" alt="Icon Dental" class="logo-light" style="height: 140px;">
+                <img src="<?php echo $base_url; ?>/assets/images/logo-dark.png" alt="Icon Dental" class="logo-dark" style="height: 140px;">
             </a>
             
             <div class="footer-contact-row">
-                <a href="tel:02089983030" class="footer-contact-item">
+                <a href="tel:<?php echo str_replace(' ', '', $clinic_phone); ?>" class="footer-contact-item">
                     <i class="fa-solid fa-phone"></i>
-                    <span>Tel: 0208 998 3030</span>
+                    <span>Tel: <?php echo $clinic_phone; ?></span>
                 </a>
                 <span class="footer-contact-item" style="cursor: default;">
                     <i class="fa-solid fa-fax"></i>
-                    <span>Fax: 0208 998 4052</span>
+                    <span>Fax: <?php echo $clinic_fax; ?></span>
                 </span>
-                <a href="mailto:info@ealingroaddental.co.uk" class="footer-contact-item">
+                <a href="mailto:<?php echo $clinic_email; ?>" class="footer-contact-item">
                     <i class="fa-regular fa-envelope"></i>
-                    <span>info@ealingroaddental.co.uk</span>
+                    <span><?php echo $clinic_email; ?></span>
                 </a>
-                <div class="footer-contact-item">
+                <a href="<?php echo $clinic_map_link; ?>" target="_blank" rel="noopener noreferrer" class="footer-contact-item" style="text-decoration: none;">
                     <i class="fa-solid fa-location-dot"></i>
-                    <span>267A Ealing Road, Wembley, Middlesex, HA0 1EU</span>
-                </div>
+                    <span><?php echo $clinic_address; ?></span>
+                </a>
             </div>
         </div>
 
@@ -52,27 +66,36 @@ if ($currentDay >= 1 && $currentDay <= 3) {
             <div class="footer-manifesto">
                 <h3>Elevating the standard of modern dentistry.</h3>
                 <p>We combine advanced technology with a premium patient experience. From routine care to complex cosmetic makeovers, we design smiles that exude health and confidence.</p>
+                <a href="<?php echo $clinic_google_reviews_url; ?>" target="_blank" rel="noopener noreferrer" class="footer-review-card">
+                    <div class="frc-icon">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="frc-content">
+                        <span class="frc-label">LEAVE US A REVIEW</span>
+                        <span class="frc-sub">We'd love to hear about your experience at Icon Dental Wembley.</span>
+                    </div>
+                </a>
             </div>
 
             <div>
                 <h4 class="footer-title">Navigation</h4>
                 <ul class="footer-links">
-                    <li><a href="/dental/icon-dental/index.php" class="footer-link-item">Home</a></li>
-                    <li><a href="/dental/icon-dental/about.php" class="footer-link-item">About Us</a></li>
-                    <li><a href="/dental/icon-dental/fees-membership.php" class="footer-link-item">Fees & Membership</a></li>
-                    <li><a href="/dental/icon-dental/for-dentists.php" class="footer-link-item">For Dentists</a></li>
-                    <li><a href="/dental/icon-dental/contact.php" class="footer-link-item">Contact Us</a></li>
+                    <li><a href="<?php echo $base_url; ?>/index.php" class="footer-link-item">Home</a></li>
+                    <li><a href="<?php echo $base_url; ?>/about.php" class="footer-link-item">About Us</a></li>
+                    <li><a href="<?php echo $base_url; ?>/fees-membership.php" class="footer-link-item">Fees & Membership</a></li>
+                    <li><a href="<?php echo $base_url; ?>/for-dentists.php" class="footer-link-item">For Dentists</a></li>
+                    <li><a href="<?php echo $base_url; ?>/contact-us.php" class="footer-link-item">Contact Us</a></li>
                 </ul>
             </div>
 
             <div>
                 <h4 class="footer-title">Expertise</h4>
                 <ul class="footer-links">
-                    <li><a href="/dental/icon-dental/treatments.php#general" class="footer-link-item">General Dentistry</a></li>
-                    <li><a href="/dental/icon-dental/treatments.php#cosmetic" class="footer-link-item">Cosmetic Dentistry</a></li>
-                    <li><a href="/dental/icon-dental/treatments/bone-grafting.php" class="footer-link-item">Bone Grafting</a></li>
-                    <li><a href="/dental/icon-dental/treatments.php#implants" class="footer-link-item">Dental Implants</a></li>
-                    <li><a href="/dental/icon-dental/treatments.php#emergency" class="footer-link-item">Emergency Care</a></li>
+                    <li><a href="<?php echo $base_url; ?>/treatments.php#general" class="footer-link-item">General Dentistry</a></li>
+                    <li><a href="<?php echo $base_url; ?>/treatments.php#cosmetic" class="footer-link-item">Cosmetic Dentistry</a></li>
+                    <li><a href="<?php echo $base_url; ?>/treatments/bone-grafting.php" class="footer-link-item">Bone Grafting</a></li>
+                    <li><a href="<?php echo $base_url; ?>/treatments.php#implants" class="footer-link-item">Dental Implants</a></li>
+                    <li><a href="<?php echo $base_url; ?>/treatments.php#emergency" class="footer-link-item">Emergency Care</a></li>
                 </ul>
             </div>
 
@@ -86,10 +109,9 @@ if ($currentDay >= 1 && $currentDay <= 3) {
                     <?php endif; ?>
                 </h4>
                 <ul class="footer-hours">
-                    <li><span>Monday - Wednesday</span> <span>09:00 - 17:00</span></li>
-                    <li><span>Thursday</span> <span>By Appointment Only</span></li>
-                    <li><span>Friday</span> <span>09:00 - 15:00</span></li>
-                    <li><span>Saturday - Sunday</span> <span>Closed</span></li>
+                    <?php foreach ($clinic_hours as $days => $hours): ?>
+                        <li><span><?php echo $days; ?></span> <span><?php echo $hours; ?></span></li>
+                    <?php endforeach; ?>
                 </ul>
             </div>
 
@@ -190,3 +212,9 @@ document.addEventListener('DOMContentLoaded', function() {
     startTimer();
 });
 </script>
+
+<!-- Bootstrap JS Bundle CDN -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

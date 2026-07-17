@@ -1,32 +1,9 @@
 <?php
 // index.php
+$page_title = "Icon Dental- Wembley | Exceptional Dental Care";
+$page_description = "At Icon Dental- Wembley, we combine advanced technology with a gentle, personal touch to create healthy, confident smiles that last a lifetime.";
+include __DIR__ . '/includes/header.php';
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Icon Dental- Wembley | Exceptional Dental Care</title>
-    <meta name="description" content="At Icon Dental- Wembley, we combine advanced technology with a gentle, personal touch to create healthy, confident smiles that last a lifetime.">
-    
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-    
-    <!-- Bootstrap 5 CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    
-    <!-- Font Awesome CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    
-    
-    <link rel="stylesheet" href="/dental/icon-dental/assets/css/style.css?v=11">    
-</head>
-<body>
-
-    <!-- Navbar -->
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/dental/icon-dental/includes/navbar.php'; ?>
 
 
     <!-- Hero Section -->
@@ -37,26 +14,32 @@
                 <!-- LEFT SIDE: Masonry Image Grid -->
                 <div class="hero-masonry">
                     <div class="masonry-col">
-                        <img src="assets/images/hero.png?v=2" class="masonry-item-1" alt="Smiling Patient">
+                        <img src="assets/images/treatment.jpeg" class="masonry-item-1" alt="Smiling Patient">
                         <img src="assets/images/invisalign-treatment.png?v=3" class="masonry-item-3" alt="Clear Aligners Patient">
                     </div>
                     <div class="masonry-col">
                         <img src="assets/images/reception.png?v=2" class="masonry-item-2" alt="Clinic Reception">
-                        <img src="assets/images/smile.png?v=3" class="masonry-item-4" alt="Healthy Smile">
+                        <img src="assets/images/tooth.jpeg" class="masonry-item-4" alt="Healthy Smile">
                     </div>
                 </div>
 
                 <!-- RIGHT SIDE: Content Area -->
                 <div class="hero-text-content">
-                    <span class="hero-badge"><i class="fa-solid fa-star me-2"></i> GENERAL DENTISTRY</span>
-                    <h2 class="hero-title">Enhance Your Smile.<br>Enhance Your Confidence.</h2>
-                    <p class="hero-desc">Experience modern dentistry in a comfortable, welcoming environment where your smile comes first. We combine advanced technology with a gentle touch to deliver exceptional results.</p>
+                    <span class="hero-" style="font-size:40px;color: #b1986f;"> ICON DENTAL Wembley</span>
+                    <br>
+
+                
+                    <span class="hero-title" style="font-size: 35px;"> NHS & Private Dentisty.</span>
+                    <br>
+
+                    <h3 class="hero-title" style="font-size: 40px;">Enhance Your Smile.<br>Enhance Your Confidence.</h3>
+                    <p class="hero-desc" style="font-size: 20px;">Experience modern dentistry in a comfortable, welcoming environment where your smile comes first. We combine advanced technology with a gentle touch to deliver exceptional results.</p>
                     
                     <div class="btn-group-custom d-flex gap-3 hero-actions">
-                        <a href="/dental/icon-dental/book-online.php" class="btn-primary-custom px-4 py-3 m-0" style="font-size: 16px;">
+                        <a href="<?php echo $base_url; ?>/book-online.php" class="btn-primary-custom px-4 py-3 m-0" style="font-size: 16px;">
                             <i class="fa-regular fa-calendar-check"></i> Book Consultation
                         </a>
-                        <a href="/dental/icon-dental/treatments.php" class="btn-outline-custom px-4 py-3 m-0" style="font-size: 16px;">
+                        <a href="<?php echo $base_url; ?>/treatments.php" class="btn-outline-custom px-4 py-3 m-0" style="font-size: 16px;">
                             Learn More <i class="fa-solid fa-arrow-right"></i>
                         </a>
                     </div>
@@ -71,19 +54,20 @@
         <div class="container custom-container">
             <div class="row align-items-center g-5 mb-5 premium-welcome-section">
                 <div class="col-lg-7">
-                    <h2 class="welcome-title text-start mb-4">Welcome to<br>Ealing Road Dental Centre</h2>
+                    <h3 class="welcome-title text-start mb-4">Welcome To ICON DENTAL Wembley</h3><h4>ICON DENTAL Wembley is a thriving mixed NHS and Private practice located in the heart of Wembley.</h4>
                     
+
                     <div class="welcome-text-content">
-                        <p class="lead-text">Established over 60 years ago, Ealing Road Dental Centre is a thriving mixed <strong>NHS and Private Dentistry</strong> located in the heart of Wembley.</p>
+                        <!-- <p class="lead-text">Established over 60 years ago, Ealing Road Dental Centre is a thriving mixed <strong>NHS and Private Dentistry</strong> located in the heart of Wembley.</p> -->
                         
-                        <p>Under the leadership of Principal Dentist <strong>Dr Abbas Arbabi</strong>, our team has proudly delivered holistic, patient-centred care for over 22 years. We believe in combining advanced technology with a compassionate approach, attracting a diverse community of patients who trust us with their smiles.</p>
+                        <p>Under the leadership of Principal Dentist <strong> Dr Kishan Sheth</strong>,our team proudly delivers holistic, patient-centred care. We believe in combining advanced technology with a compassionate approach, attracting a diverse community of patients who trust us with their smiles.</p>
                         
                         <p>Our commitment to excellence means we constantly update our knowledge and techniques. From routine dentistry to advanced aesthetics, we offer a broad spectrum of treatments. For complex cases, we provide seamless referral pathways to consultant specialists across both NHS and private sectors.</p>
                         
-                        <div class="highlight-quote">
+                        <!-- <div class="highlight-quote">
                             <i class="fa-solid fa-quote-left"></i>
                             <p>Dr Abbas Arbabi is highly skilled in Implant Surgery, Aesthetic Dentistry, and comprehensive Smile Makeovers.</p>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 
@@ -97,10 +81,10 @@
                         
                         <div class="wcc-number-wrapper">
                             <span class="wcc-label">Call our team directly</span>
-                            <a href="tel:02089983030" class="wcc-number">0208 998 3030</a>
+                            <a href="tel:02089983030" class="wcc-number">020 8998 3030</a>
                         </div>
                         
-                        <a href="/dental/icon-dental/book-online.php" class="btn-primary-custom w-100 mt-4">
+                        <a href="<?php echo $base_url; ?>/book-online.php" class="btn-primary-custom w-100 mt-4">
                             <i class="fa-regular fa-calendar-check"></i> Book Online Now
                         </a>
                     </div>
@@ -243,37 +227,88 @@
         </div>
     </section>
 
-    <!-- Invisalign & Implants Row -->
-    <section class="section-padding">
+    <!-- Treatments Grid Section -->
+    <section class="home-treatments-section">
         <div class="container custom-container">
-            <div class="row g-5">
-                <div class="col-lg-6">
-                    <div class="service-card p-5 h-100" style="background: linear-gradient(135deg, #3f4b3d, #495746); color: white;">
-                        <span class="hero-badge" style="background: rgba(177,152,111,0.2); color: #b1986f;">INVISALIGN</span>
-                        <h2 class="welcome-title text-white mt-3">Straighten Your Teeth Without Metal Braces</h2>
-                        <p class="text-white-50 mb-4">Transform your smile discreetly using clear aligners designed around your lifestyle.</p>
-                        <ul class="text-white d-inline-block text-start" style="list-style: none; padding: 0;">
-                            <li class="mb-2"><i class="fa-solid fa-check" style="color:#b1986f; margin-right:8px;"></i> Nearly Invisible</li>
-                            <li class="mb-2"><i class="fa-solid fa-check" style="color:#b1986f; margin-right:8px;"></i> Comfortable & Removable</li>
-                            <li class="mb-2"><i class="fa-solid fa-check" style="color:#b1986f; margin-right:8px;"></i> Faster Results</li>
-                            <li class="mb-4"><i class="fa-solid fa-check" style="color:#b1986f; margin-right:8px;"></i> Digital Smile Simulation</li>
-                        </ul>
-                        <a href="#" class="btn-primary-custom" style="background: #b1986f;">Discover Invisalign</a>
-                    </div>
+            <div class="home-treatments-grid">
+                <!-- Card 1: Check My Teeth -->
+                <div class="home-treatment-card">
+                    <span class="card-badge">Check My Teeth</span>
+                    <h2 class="card-title">Routine Dental Check-ups & Diagnosis</h2>
+                    <p class="card-desc">Comprehensive assessments to ensure your oral health is on track and prevent future issues.</p>
+                    <ul class="card-list">
+                        <li><i class="fa-solid fa-check"></i> Dental Check-up</li>
+                        <li><i class="fa-solid fa-check"></i> Digital X-Rays</li>
+                        <li><i class="fa-solid fa-check"></i> Oral Health Assessment</li>
+                        <li><i class="fa-solid fa-check"></i> Preventive Care</li>
+                    </ul>
+                    <a href="<?php echo $base_url; ?>/treatments/check-my-teeth.php" class="card-btn">
+                        Book Check-up <i class="fa-solid fa-arrow-right"></i>
+                    </a>
                 </div>
-                <div class="col-lg-6">
-                    <div class="service-card p-5 h-100" style="background: linear-gradient(135deg, #495746, #5a6956); color: white;">
-                        <span class="hero-badge" style="background: rgba(177,152,111,0.2); color: #b1986f;">DENTAL IMPLANTS</span>
-                        <h2 class="welcome-title text-white mt-3">Permanent Solutions For Missing Teeth</h2>
-                        <p class="text-white-50 mb-4">Dental implants are the gold standard solution for replacing missing teeth.</p>
-                        <ul class="text-white d-inline-block text-start" style="list-style: none; padding: 0;">
-                            <li class="mb-2"><i class="fa-solid fa-check" style="color:#b1986f; margin-right:8px;"></i> Natural Appearance</li>
-                            <li class="mb-2"><i class="fa-solid fa-check" style="color:#b1986f; margin-right:8px;"></i> Improved Confidence</li>
-                            <li class="mb-2"><i class="fa-solid fa-check" style="color:#b1986f; margin-right:8px;"></i> Strong & Durable</li>
-                            <li class="mb-4"><i class="fa-solid fa-check" style="color:#b1986f; margin-right:8px;"></i> Preserve Jawbone Health</li>
-                        </ul>
-                        <a href="#" class="btn-primary-custom" style="background: #b1986f;">Explore Implants</a>
-                    </div>
+
+                <!-- Card 2: Repair My Teeth -->
+                <div class="home-treatment-card">
+                    <span class="card-badge">Repair My Teeth</span>
+                    <h2 class="card-title">Restore Damaged Teeth</h2>
+                    <p class="card-desc">State-of-the-art restorative procedures to recover the function and structural integrity of your teeth.</p>
+                    <ul class="card-list">
+                        <li><i class="fa-solid fa-check"></i> Tooth Fillings</li>
+                        <li><i class="fa-solid fa-check"></i> Root Canal Treatment</li>
+                        <li><i class="fa-solid fa-check"></i> Crowns</li>
+                        <li><i class="fa-solid fa-check"></i> Emergency Dental Care</li>
+                    </ul>
+                    <a href="<?php echo $base_url; ?>/treatments/repair-my-teeth.php" class="card-btn">
+                        Repair My Teeth <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Card 3: Replace My Teeth -->
+                <div class="home-treatment-card">
+                    <span class="card-badge">Replace My Teeth</span>
+                    <h2 class="card-title">Replace Missing Teeth</h2>
+                    <p class="card-desc">Premium tooth replacement solutions designed to replicate natural teeth for lasting confidence.</p>
+                    <ul class="card-list">
+                        <li><i class="fa-solid fa-check"></i> Dental Implants</li>
+                        <li><i class="fa-solid fa-check"></i> Dental Bridges</li>
+                        <li><i class="fa-solid fa-check"></i> Dentures</li>
+                        <li><i class="fa-solid fa-check"></i> Implant Consultation</li>
+                    </ul>
+                    <a href="<?php echo $base_url; ?>/treatments/replace-my-teeth.php" class="card-btn">
+                        Replace My Teeth <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Card 4: Enhance My Teeth -->
+                <div class="home-treatment-card">
+                    <span class="card-badge">Enhance My Teeth</span>
+                    <h2 class="card-title">Create Your Perfect Smile</h2>
+                    <p class="card-desc">Bespoke cosmetic options designed to beautify, brighten, and perfect your natural smile.</p>
+                    <ul class="card-list">
+                        <li><i class="fa-solid fa-check"></i> Teeth Whitening</li>
+                        <li><i class="fa-solid fa-check"></i> Invisalign</li>
+                        <li><i class="fa-solid fa-check"></i> Veneers</li>
+                        <li><i class="fa-solid fa-check"></i> Smile Makeover</li>
+                    </ul>
+                    <a href="<?php echo $base_url; ?>/treatments/enhance-my-teeth.php" class="card-btn">
+                        Enhance My Smile <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Card 5: Facial Aesthetics -->
+                <div class="home-treatment-card">
+                    <span class="card-badge">Facial Aesthetics</span>
+                    <h2 class="card-title">Refresh Your Natural Appearance</h2>
+                    <p class="card-desc">Non-surgical cosmetic facial procedures to rejuvenate, refresh, and enhance your features.</p>
+                    <ul class="card-list">
+                        <li><i class="fa-solid fa-check"></i> Anti-Wrinkle Treatment</li>
+                        <li><i class="fa-solid fa-check"></i> Dermal Fillers</li>
+                        <li><i class="fa-solid fa-check"></i> Lip Enhancement</li>
+                        <li><i class="fa-solid fa-check"></i> Rejuvenation &amp; Skin Care</li>
+                    </ul>
+                    <a href="<?php echo $base_url; ?>/treatments/facial-aesthetics.php" class="card-btn">
+                        Explore Aesthetics <i class="fa-solid fa-arrow-right"></i>
+                    </a>
                 </div>
             </div>
         </div>
@@ -343,7 +378,7 @@
                             </li>
                         </ul>
                         
-                        <a href="#" class="btn-primary-custom btn-lg mt-2"><i class="fa-regular fa-calendar"></i> Book Appointment</a>
+                        <a href="<?php echo $base_url; ?>/book-online.php" class="btn-primary-custom btn-lg mt-2"><i class="fa-regular fa-calendar"></i> Book Appointment</a>
                     </div>
                 </div>
                 
@@ -362,14 +397,7 @@
 
 
 
-    <!-- Scripts -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    
-
-
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/dental/icon-dental/includes/footer.php'; ?>
-</body>
-</html>
+    <?php include __DIR__ . '/includes/footer.php'; ?>
 
 
 

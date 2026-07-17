@@ -1,31 +1,8 @@
 <?php
 // for-dentists.php
+$page_title = "For Dentists - Icon Dental Wembley";
+include __DIR__ . '/includes/header.php';
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>For Dentists - Icon Dental Wembley</title>
-    
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-    
-    <!-- Bootstrap 5 CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    
-    <!-- Font Awesome CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    
-    
-    <link rel="stylesheet" href="/dental/icon-dental/assets/css/style.css?v=8">
-</head>
-<body>
-
-    <!-- Navbar -->
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/dental/icon-dental/includes/navbar.php'; ?>
 
         
     <!-- Hero Section -->
@@ -69,10 +46,10 @@
                         <!-- Using Unsplash image matching description since generation quota exhausted -->
                         <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Professional healthcare handshake" class="hero-image">
                         
-                        <div class="floating-card">
+                        <!-- <div class="floating-card">
                             <div class="fc-icon"><i class="fa-solid fa-tooth"></i></div>
                             <p class="fc-text">We make referrals easy for you and comfortable for your patients.</p>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -89,7 +66,7 @@
                         <div class="process-icon"><i class="fa-solid fa-user-group"></i></div>
                         <h3 class="process-title">1. Our Referral Team</h3>
                         <p class="process-text">A dedicated team is here to support you with any questions and ensure a smooth experience.</p>
-                        <div><a href="#" class="process-link">Learn more &rarr;</a></div>
+                        <!-- <div><a href="#" class="process-link">Learn more &rarr;</a></div> -->
                     </div>
                 </div>
                 <!-- Card 2 -->
@@ -98,7 +75,7 @@
                         <div class="process-icon"><i class="fa-regular fa-calendar-check"></i></div>
                         <h3 class="process-title">2. Our Referral Process</h3>
                         <p class="process-text">Simple, efficient and transparent. We keep you updated at every stage of your patient's journey.</p>
-                        <div><a href="#" class="process-link">Learn more &rarr;</a></div>
+                        <!-- <div><a href="#" class="process-link">Learn more &rarr;</a></div> -->
                     </div>
                 </div>
                 <!-- Card 3 -->
@@ -107,7 +84,7 @@
                         <div class="process-icon"><i class="fa-solid fa-file-signature"></i></div>
                         <h3 class="process-title">3. Referral Form</h3>
                         <p class="process-text">Submit your referral quickly and securely using our online referral form.</p>
-                        <div><a href="#" class="process-link">Learn more &rarr;</a></div>
+                        <!-- <div><a href="#" class="process-link">Learn more &rarr;</a></div> -->
                     </div>
                 </div>
                 <!-- Card 4 -->
@@ -116,7 +93,7 @@
                         <div class="process-icon"><i class="fa-solid fa-phone-volume"></i></div>
                         <h3 class="process-title">4. Contact Us</h3>
                         <p class="process-text">Get in touch with our team. We're always happy to help.</p>
-                        <div><a href="#" class="process-link">Learn more &rarr;</a></div>
+                        <!-- <div><a href="#" class="process-link">Learn more &rarr;</a></div> -->
                     </div>
                 </div>
             </div>
@@ -145,7 +122,7 @@
                     <div class="cta-card">
                         <h3 class="cta-title">Refer a Patient Today</h3>
                         <p class="cta-text">We're here to provide the best possible care for your patients.</p>
-                        <a href="#" class="btn-primary-custom w-100 mb-3"><i class="fa-solid fa-file-lines"></i> Submit Referral</a>
+                        <a href="referral-form.php" class="btn-primary-custom w-100 mb-3"><i class="fa-solid fa-file-lines"></i> Submit Referral</a>
                         <a href="#" class="btn-outline-custom w-100"><i class="fa-solid fa-phone"></i> Call Us</a>
                     </div>
                 </div>
@@ -153,14 +130,7 @@
         </section>
     </div>
 
-    <!-- Bootstrap JS Bundle -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    
-
-
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/dental/icon-dental/includes/footer.php'; ?>
-</body>
-</html>
+    <?php include __DIR__ . '/includes/footer.php'; ?>
 
 
 

@@ -1,31 +1,8 @@
 <?php
 // about/smile-stories.php
+$page_title = "Icon Dental- Wembley | Smile Stories";
+include dirname(__DIR__) . '/includes/header.php';
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Icon Dental- Wembley | Smile Stories</title>
-    
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-    
-    <!-- Bootstrap 5 CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    
-    <!-- Font Awesome CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    
-    
-    <link rel="stylesheet" href="/dental/icon-dental/assets/css/style.css?v=2">
-</head>
-<body>
-
-    <!-- Navbar -->
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/dental/icon-dental/includes/navbar.php'; ?>
 
 
     <!-- Hero Section -->
@@ -59,45 +36,7 @@
     <section>
         <div class="container custom-container">
             
-            <!-- Stats Bar -->
-            <div class="stats-bar">
-                <div class="stat-bar-block">
-                    <div class="stat-bar-icon"><i class="fa-regular fa-face-smile"></i></div>
-                    <div>
-                        <div class="stat-bar-value">2500+</div>
-                        <div class="stat-bar-label">Happy Patients</div>
-                    </div>
-                </div>
-                <div class="stat-bar-block">
-                    <div class="stat-bar-icon"><i class="fa-regular fa-star"></i></div>
-                    <div>
-                        <div class="stat-bar-value">4.9/5</div>
-                        <div class="stat-bar-label">Google Rating</div>
-                    </div>
-                </div>
-                <div class="stat-bar-block">
-                    <div class="stat-bar-icon"><i class="fa-regular fa-calendar"></i></div>
-                    <div>
-                        <div class="stat-bar-value">15+</div>
-                        <div class="stat-bar-label">Years Experience</div>
-                    </div>
-                </div>
-                <div class="stat-bar-block">
-                    <div class="stat-bar-icon"><i class="fa-solid fa-shield-halved"></i></div>
-                    <div>
-                        <div class="stat-bar-value">100%</div>
-                        <div class="stat-bar-label">Patient Focused</div>
-                    </div>
-                </div>
-                <div class="stat-bar-block">
-                    <div class="stat-bar-icon"><i class="fa-regular fa-heart"></i></div>
-                    <div>
-                        <div class="stat-bar-value">Countless</div>
-                        <div class="stat-bar-label">Confident Smiles</div>
-                    </div>
-                </div>
-            </div>
-
+            
             <!-- Transformations Grid -->
             <div class="d-flex justify-content-between align-items-end mb-4">
                 <h2 class="section-title">Patient Transformations</h2>
@@ -226,14 +165,7 @@
         </div>
     </section>
 
-    <!-- Scripts -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    
-
-
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/dental/icon-dental/includes/footer.php'; ?>
-</body>
-</html>
+    <?php include dirname(__DIR__) . '/includes/footer.php'; ?>
 
 
 
