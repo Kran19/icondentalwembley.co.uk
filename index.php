@@ -14,12 +14,12 @@ include __DIR__ . '/includes/header.php';
                 <!-- LEFT SIDE: Masonry Image Grid -->
                 <div class="hero-masonry">
                     <div class="masonry-col">
-                        <img src="assets/images/treatment.jpeg" class="masonry-item-1" alt="Smiling Patient">
-                        <img src="assets/images/invisalign-treatment.png?v=3" class="masonry-item-3" alt="Clear Aligners Patient">
+                        <img src="assets/images/clinic room.png" class="masonry-item-1" alt="Smiling Patient">
+                        <img src="assets/images/team.png" class="masonry-item-3" alt="Clear Aligners Patient">
                     </div>
                     <div class="masonry-col">
-                        <img src="assets/images/reception.png?v=2" class="masonry-item-2" alt="Clinic Reception">
-                        <img src="assets/images/tooth.jpeg" class="masonry-item-4" alt="Healthy Smile">
+                        <img src="assets/images/clinic reception waiting area.png" class="masonry-item-2" alt="Clinic Reception">
+                        <img src="assets/images/clinic room 2.png" class="masonry-item-4" alt="Healthy Smile">
                     </div>
                 </div>
 

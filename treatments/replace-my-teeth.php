@@ -663,7 +663,7 @@ body.dark-theme .related-link-card {
                 <div class="td-icon-box"><i class="fa-solid fa-tooth"></i></div>
                 <h3 class="td-title">Dental Implants</h3>
                 <p class="td-desc">Titanium posts surgically anchored into the jawbone, serving as permanent roots to support realistic porcelain dental crowns.</p>
-                <span class="td-link">Read Details <i class="fa-solid fa-arrow-right"></i></span>
+                <!-- <span class="td-link">Read Details <i class="fa-solid fa-arrow-right"></i></span> -->
             </div>
 
             <!-- Service 2 -->
@@ -671,7 +671,7 @@ body.dark-theme .related-link-card {
                 <div class="td-icon-box"><i class="fa-solid fa-pump-medical"></i></div>
                 <h3 class="td-title">Complete Dentures</h3>
                 <p class="td-desc">Custom-made, lightweight removable prosthetics designed to restore full dental arches comfortably and naturally.</p>
-                <span class="td-link">Read Details <i class="fa-solid fa-arrow-right"></i></span>
+                <!-- <span class="td-link">Read Details <i class="fa-solid fa-arrow-right"></i></span> -->
             </div>
 
             <!-- Service 3 -->
@@ -679,7 +679,7 @@ body.dark-theme .related-link-card {
                 <div class="td-icon-box"><i class="fa-solid fa-shield-halved"></i></div>
                 <h3 class="td-title">Full Smile Restoration</h3>
                 <p class="td-desc">Advanced All-on-4 or All-on-6 implant bridges that replace entire arches of missing teeth, providing permanent stability.</p>
-                <span class="td-link">Read Details <i class="fa-solid fa-arrow-right"></i></span>
+                <!-- <span class="td-link">Read Details <i class="fa-solid fa-arrow-right"></i></span> -->
             </div>
         </div>
     </div>
@@ -751,14 +751,14 @@ body.dark-theme .related-link-card {
         <div class="gallery-grid">
             <div class="gallery-item">
                 <div class="gallery-img-wrapper">
-                    Before (Empty Gap/Lost Tooth Space)
+                    <img src="../assets/images/replace-before.jpeg" alt=""style="width: 100%;height:65%">
                     <div class="gallery-label">Before</div>
                 </div>
                 <h4 class="gallery-caption">Missing Tooth Area</h4>
             </div>
             <div class="gallery-item">
                 <div class="gallery-img-wrapper">
-                    After (Anchor Implant & Crown Fitted)
+                     <img src="../assets/images/replace-after.jpeg" alt=""style="width: 100%;">
                     <div class="gallery-label" style="background:#b1986f;">After</div>
                 </div>
                 <h4 class="gallery-caption">Fully Restored Crown</h4>

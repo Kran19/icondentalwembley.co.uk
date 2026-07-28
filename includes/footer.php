@@ -91,11 +91,12 @@ if ($currentDay >= 1 && $currentDay <= 3) {
             <div>
                 <h4 class="footer-title">Expertise</h4>
                 <ul class="footer-links">
-                    <li><a href="<?php echo $base_url; ?>/treatments.php#general" class="footer-link-item">General Dentistry</a></li>
-                    <li><a href="<?php echo $base_url; ?>/treatments.php#cosmetic" class="footer-link-item">Cosmetic Dentistry</a></li>
-                    <li><a href="<?php echo $base_url; ?>/treatments/bone-grafting.php" class="footer-link-item">Bone Grafting</a></li>
-                    <li><a href="<?php echo $base_url; ?>/treatments.php#implants" class="footer-link-item">Dental Implants</a></li>
-                    <li><a href="<?php echo $base_url; ?>/treatments.php#emergency" class="footer-link-item">Emergency Care</a></li>
+                    <li><a href="<?php echo $base_url; ?>/treatments/check-my-teeth.php" class="footer-link-item">Check My Teeth</a></li>
+                    <li><a href="<?php echo $base_url; ?>/treatments/repair-my-teeth.php" class="footer-link-item">Repair My Teeth</a></li>
+                    <li><a href="<?php echo $base_url; ?>/treatments/replace-my-teeth.php" class="footer-link-item">Replace My Teeth</a></li>
+                    <li><a href="<?php echo $base_url; ?>/treatments/enhance-my-teeth.php" class="footer-link-item">Enhance My Teeth</a></li>
+                    <li><a href="<?php echo $base_url; ?>/treatments/facial-aesthetics.php" class="footer-link-item">Facial Aesthetics</a></li>                    
+                    <li><a href="<?php echo $base_url; ?>/contact-us.php" class="footer-link-item">Emergency Care</a></li>
                 </ul>
             </div>
 

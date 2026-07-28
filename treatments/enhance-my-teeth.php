@@ -641,7 +641,7 @@ body.dark-theme .related-link-card {
             <!-- Right Column -->
             <div class="col-lg-6">
                 <div class="hero-image-wrapper">
-                    <img src="../assets/images/smile.png" alt="Cosmetic smile enhancements at Icon Dental Wembley">
+                    <img src="../assets/images/invisalign-treatment.png" alt="Cosmetic smile enhancements at Icon Dental Wembley">
                 </div>
             </div>
         </div>
@@ -663,7 +663,7 @@ body.dark-theme .related-link-card {
                 <div class="td-icon-box"><i class="fa-solid fa-tooth"></i></div>
                 <h3 class="td-title">Invisalign® Aligners</h3>
                 <p class="td-desc">Virtually invisible, comfortable plastic alignment trays designed to straighten crowded or gapped teeth discreetly.</p>
-                <span class="td-link">Read Details <i class="fa-solid fa-arrow-right"></i></span>
+                <!-- <span class="td-link">Read Details <i class="fa-solid fa-arrow-right"></i></span> -->
             </div>
 
             <!-- Service 2 -->
@@ -671,7 +671,7 @@ body.dark-theme .related-link-card {
                 <div class="td-icon-box"><i class="fa-solid fa-pump-medical"></i></div>
                 <h3 class="td-title">Teeth Whitening</h3>
                 <p class="td-desc">Highly effective in-chair or take-home professional bleaching systems to remove enamel stains safely and quickly.</p>
-                <span class="td-link">Read Details <i class="fa-solid fa-arrow-right"></i></span>
+                <!-- <span class="td-link">Read Details <i class="fa-solid fa-arrow-right"></i></span> -->
             </div>
 
             <!-- Service 3 -->
@@ -679,7 +679,7 @@ body.dark-theme .related-link-card {
                 <div class="td-icon-box"><i class="fa-solid fa-shield-halved"></i></div>
                 <h3 class="td-title">Porcelain Veneers</h3>
                 <p class="td-desc">Custom-made, ultra-thin ceramic shells bonded permanently to the front of teeth for instant corrections of shape and shade.</p>
-                <span class="td-link">Read Details <i class="fa-solid fa-arrow-right"></i></span>
+                <!-- <span class="td-link">Read Details <i class="fa-solid fa-arrow-right"></i></span> -->
             </div>
 
             <!-- Service 4 -->
@@ -687,7 +687,7 @@ body.dark-theme .related-link-card {
                 <div class="td-icon-box"><i class="fa-solid fa-kit-medical"></i></div>
                 <h3 class="td-title">Composite Bonding</h3>
                 <p class="td-desc">Hand-crafted composite resin applied directly to correct minor tooth chips, discolorations, and gaps in a single visit.</p>
-                <span class="td-link">Read Details <i class="fa-solid fa-arrow-right"></i></span>
+                <!-- <span class="td-link">Read Details <i class="fa-solid fa-arrow-right"></i></span> -->
             </div>
         </div>
     </div>
@@ -759,14 +759,14 @@ body.dark-theme .related-link-card {
         <div class="gallery-grid">
             <div class="gallery-item">
                 <div class="gallery-img-wrapper">
-                    Before (Crowded & Discoloured Smile)
+                    <img src="../assets/images/before-dada.jpeg" style="width: 100%;" alt="">
                     <div class="gallery-label">Before</div>
                 </div>
                 <h4 class="gallery-caption">Initial Smile Alignment</h4>
             </div>
             <div class="gallery-item">
                 <div class="gallery-img-wrapper">
-                    After (Invisalign & Veneers Makeover)
+                    <img src="../assets/images/after-before2.jpeg" style="width: 100%;" alt="">
                     <div class="gallery-label" style="background:#b1986f;">After</div>
                 </div>
                 <h4 class="gallery-caption">Completed Enhancement</h4>

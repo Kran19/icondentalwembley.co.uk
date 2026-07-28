@@ -47,7 +47,7 @@ if (!isset($current_page)) {
             </a>
         </div>
         <div class="top-info-center">
-            <span>Welcoming New Patients</span>
+            <span>Welcoming New Patients - Private & NHS"</span>
         </div>
         <div class="top-info-right">
             <a href="tel:<?php echo str_replace(' ', '', $clinic_phone); ?>">
@@ -86,7 +86,7 @@ if (!isset($current_page)) {
                 <a href="<?php echo $base_url; ?>/about.php" class="pgn-dropdown-item">About Us</a>
                 <!-- <a href="<?php echo $base_url; ?>/about/why-choose-us.php" class="pgn-dropdown-item">Why Choose Us</a> -->
                 <a href="<?php echo $base_url; ?>/about/meet-the-team.php" class="pgn-dropdown-item">Meet The Team</a>
-                <a href="<?php echo $base_url; ?>/about/smile-stories.php" class="pgn-dropdown-item">Smile Stories</a>
+                <!-- <a href="<?php echo $base_url; ?>/about/smile-stories.php" class="pgn-dropdown-item">Smile Stories</a> -->
             </div>
         </div>
         

@@ -93,7 +93,7 @@ include __DIR__ . '/includes/header.php';
                 <!-- Card 2 -->
                 <div class="treatment-card">
                     <div class="t-img-container">
-                        <img src="assets/images/smile.png" alt="Smile Makeovers">
+                        <img src="assets/images/smile.jpeg" alt="Smile Makeovers">
                         <div class="t-icon-circle"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
                     </div>
                     <div class="t-content">
@@ -133,7 +133,7 @@ include __DIR__ . '/includes/header.php';
                 <!-- Card 5 -->
                 <div class="treatment-card">
                     <div class="t-img-container">
-                        <img src="assets/images/reception.png" alt="View All Treatments">
+                        <img src="assets/images/invisalign-treatment.jpg" alt="View All Treatments">
                         <div class="t-icon-circle"><i class="fa-solid fa-border-all"></i></div>
                     </div>
                     <div class="t-content">
@@ -194,7 +194,7 @@ include __DIR__ . '/includes/header.php';
                     <a href="<?php echo $base_url; ?>/book-online.php" class="btn-primary-custom">
                         <i class="fa-regular fa-calendar"></i> Book Online
                     </a>
-                    <a href="#" class="btn-outline-custom">
+                    <a href="tel:<?php echo str_replace(' ', '', $clinic_phone); ?>" class="btn-outline-custom">
                         <i class="fa-solid fa-phone"></i> Call Us
                     </a>
                 </div>

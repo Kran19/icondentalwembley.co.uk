@@ -252,6 +252,8 @@ body.dark-theme .foh-placeholder-img-bg {
     text-transform: uppercase;
 }
 .team-modal-bio {
+    overflow-y: auto;
+    max-height: 120px;
     font-family: 'Inter', sans-serif;
     font-size: 14.5px;
     line-height: 1.6;
@@ -346,8 +348,8 @@ body.dark-theme .foh-placeholder-img-bg {
                 </div>
                 <div class="col-lg-6">
                     <div class="hero-image-wrapper">
-                        <img src="../assets/images/about-us-light.png" alt="Dental Clinic Team" class="about-image img-light">
-                        <img src="../assets/images/about-us-dark.png" alt="Dental Clinic Team" class="about-image img-dark">
+                        <img src="../assets/images/team.png" alt="Dental Clinic Team" class="about-image img-light">
+                        <img src="../assets/images/team.png" alt="Dental Clinic Team" class="about-image img-dark">
                     </div>
                 </div>
             </div>
@@ -366,9 +368,20 @@ body.dark-theme .foh-placeholder-img-bg {
                 </div>
                 <div class="team-grid">
                     <!-- Card 1: Dr Kishan Sheth -->
-                    <div class="team-card" data-name="Dr Kishan Sheth" data-role="Principal Dentist" data-gdc="GDC: 279027" data-image="../assets/images/team/kishan-sheth.jpg" data-bio="Dr Kishan Sheth is our Principal Dentist, dedicated to providing a premium patient experience. He has extensive expertise in general dentistry, cosmetic treatments, and aesthetic smile makeovers.">
+                    <div class="team-card" data-name="Dr Kishan Sheth" data-role="Principal Dentist" data-gdc="GDC: 279027" data-image="../assets/images/kishan seth.jpeg" data-bio="BDS King’s College London 2018
+Dr. Kishan Sheth graduated in 2018 from King’s College London as a runner up for the prestigious Jose Souyave Prize for excellence in root canal treatment and then embarked on his vocational training in Central London.
+ 
+Kish has spoken amongst respected leaders at national and international conferences in Dubai, Sharjah and Atlanta, and has numerous publications out in the dental press. Kish has worked with Oral B, Colgate, Henry Schein and Septodont in organising and delivering presentations for students and staff. In his fourth year, he became the youngest Honorary Editor of DentaltownUK, a position he still holds today alongside an editorial board position in the Journal of Oral Medicine. Kish completed training in ‘Advanced Cosmetic and Restorative Dentistry’ with renowned dentist Dr Chris Orr at Advanced Dental Seminars and furthered his ‘Oral Surgery and Surgical Implantology’ training with the team at Doctores Valencia and renowned implant surgeon Dr Alfredo Valencia.
+ 
+Kish has also completed a Postgraduate Certificate in Dental Law and Ethics with the University of Bedfordshire, as well as a Masters degree (MSc) in Implant Dentistry with Universidad Rey Juan Carlos, in Madrid. Kish is currently working towards completion of a Masters of Surgery degree at the Medical School of UCL, in Aesthetic Medicine.
+ 
+Outside of dentistry, Kishan loves Bollywood dancing, reading plays, watching films and keeping active at the gym. He has even written a novel, ‘The Ramayan Returns’.
+ 
+Kish has also completed a Postgraduate Certificate in Dental Law and Ethics with the University of Bedfordshire, as well as a Masters degree (MSc) in Implant Dentistry with Universidad Rey Juan Carlos, in Madrid. Kish is currently working towards completion of a Masters of Surgery degree at the Medical School of UCL, in Aesthetic Medicine.
+ 
+Outside of dentistry, Kishan loves Bollywood dancing, reading plays, watching films and keeping active at the gym. He has even written a novel, ‘The Ramayan Returns’">
                         <div class="team-card-img-wrapper">
-                            <img src="../assets/images/team/kishan-sheth.jpg" onerror="this.src='../assets/images/team/michael.png'" alt="Dr Kishan Sheth" class="team-card-img">
+                            <img src="../assets/images/kishan seth.jpeg" onerror="this.src='../assets/images/team/michael.png'" alt="Dr Kishan Sheth" class="team-card-img">
                         </div>
                         <div class="team-card-content">
                             <h3 class="team-name">Dr Kishan Sheth</h3>
@@ -378,9 +391,11 @@ body.dark-theme .foh-placeholder-img-bg {
                         </div>
                     </div>
                     <!-- Card 2: Dr Hina Kanani -->
-                    <div class="team-card" data-name="Dr Hina Kanani" data-role="Operations Manager" data-gdc="" data-image="../assets/images/team/hina-kanani.jpg" data-bio="Dr Hina Kanani is our Operations Manager. She oversees day-to-day operations to ensure a seamless, comfortable, and organized clinic environment for all our patients and clinical staff.">
+                    <div class="team-card" data-name="Dr Hina Kanani" data-role="Operations Manager" data-gdc="" data-image="../assets/images/team/hina-kanani.jpg" data-bio="Hina is the Business Operations Manager at ICON DENTAL Wembley, where she is dedicated to ensuring that every patient receives an exceptional experience from the moment they walk through our doors. With a strong background in healthcare, Hina is a qualified medical doctor and currently works as a General Practitioner within the NHS, bringing a unique patient-centred perspective to the management of the practice.
+Alongside her clinical work, Hina is currently pursuing a Master of Business Administration (MBA), combining her passion for healthcare with expertise in leadership, strategy, and business management. Her diverse experience allows her to bridge the gap between outstanding clinical care and the seamless day-to-day running of the practice.
+Hina is passionate about creating an environment where patients feel welcomed, listened to, and cared for. She believes that excellent dentistry is about more than just clinical treatment—it is about delivering compassionate, personalised care and ensuring that every">
                         <div class="team-card-img-wrapper">
-                            <img src="../assets/images/team/hina-kanani.jpg" onerror="this.src='../assets/images/team/sarah.png'" alt="Dr Hina Kanani" class="team-card-img">
+                            <img src="../assets/images/heena.jpeg" onerror="this.src='../assets/images/team/sarah.png'" alt="Dr Hina Kanani" class="team-card-img">
                         </div>
                         <div class="team-card-content">
                             <h3 class="team-name">Dr Hina Kanani</h3>
@@ -392,7 +407,10 @@ body.dark-theme .foh-placeholder-img-bg {
                     <!-- Card 3: Rajeshri Sheth -->
                     <div class="team-card" data-name="Rajeshri Sheth" data-role="Practice Manager" data-gdc="" data-image="../assets/images/team/rajeshri-sheth.jpg" data-bio="Rajeshri Sheth is our dedicated Practice Manager, coordinating clinical administration, patient relations, and ensuring our Wembley clinic services run smoothly.">
                         <div class="team-card-img-wrapper">
-                            <img src="../assets/images/team/rajeshri-sheth.jpg" onerror="this.src='../assets/images/team/sarah.png'" alt="Rajeshri Sheth" class="team-card-img">
+                           <pre style=" margin-left:-120px;  height: 100%; width: 100%; display: flex;justify-content: center;align-items: center;text-align: center;">
+                               Coming soon...
+                           </pre>   
+                            <!-- <img src="../assets/images/team/rajeshri-sheth.jpg" onerror="this.src='../assets/images/team/sarah.png'" alt="Rajeshri Sheth" class="team-card-img"> -->
                         </div>
                         <div class="team-card-content">
                             <h3 class="team-name">Rajeshri Sheth</h3>
@@ -413,9 +431,16 @@ body.dark-theme .foh-placeholder-img-bg {
                 </div>
                 <div class="team-grid">
                     <!-- Card 1: Dr Kishan Sheth -->
-                    <div class="team-card" data-name="Dr Kishan Sheth" data-role="Principal Dentist" data-gdc="GDC: 279027" data-image="../assets/images/team/kishan-sheth.jpg" data-bio="Dr Kishan Sheth is our Principal Dentist, dedicated to providing a premium patient experience. He has extensive expertise in general dentistry, cosmetic treatments, and aesthetic smile makeovers.">
+                    <div class="team-card" data-name="Dr Kishan Sheth" data-role="Principal Dentist" data-gdc="GDC: 279027" data-image="../assets/images/kishan sheth.jpeg" data-bio="BDS King’s College London 2018
+Dr. Kishan Sheth graduated in 2018 from King’s College London as a runner up for the prestigious Jose Souyave Prize for excellence in root canal treatment and then embarked on his vocational training in Central London.
+ 
+Kish has spoken amongst respected leaders at national and international conferences in Dubai, Sharjah and Atlanta, and has numerous publications out in the dental press. Kish has worked with Oral B, Colgate, Henry Schein and Septodont in organising and delivering presentations for students and staff. In his fourth year, he became the youngest Honorary Editor of DentaltownUK, a position he still holds today alongside an editorial board position in the Journal of Oral Medicine. Kish completed training in ‘Advanced Cosmetic and Restorative Dentistry’ with renowned dentist Dr Chris Orr at Advanced Dental Seminars and furthered his ‘Oral Surgery and Surgical Implantology’ training with the team at Doctores Valencia and renowned implant surgeon Dr Alfredo Valencia.
+ 
+Kish has also completed a Postgraduate Certificate in Dental Law and Ethics with the University of Bedfordshire, as well as a Masters degree (MSc) in Implant Dentistry with Universidad Rey Juan Carlos, in Madrid. Kish is currently working towards completion of a Masters of Surgery degree at the Medical School of UCL, in Aesthetic Medicine.
+ 
+Outside of dentistry, Kishan loves Bollywood dancing, reading plays, watching films and keeping active at the gym. He has even written a novel, ‘The Ramayan Returns’.">
                         <div class="team-card-img-wrapper">
-                            <img src="../assets/images/team/kishan-sheth.jpg" onerror="this.src='../assets/images/team/michael.png'" alt="Dr Kishan Sheth" class="team-card-img">
+                            <img src="../assets/images/kishan seth.jpeg" onerror="this.src='../assets/images/team/michael.png'" alt="Dr Kishan Sheth" class="team-card-img">
                         </div>
                         <div class="team-card-content">
                             <h3 class="team-name">Dr Kishan Sheth</h3>
@@ -427,7 +452,10 @@ body.dark-theme .foh-placeholder-img-bg {
                     <!-- Card 2: Dr Hana Shafi -->
                     <div class="team-card" data-name="Dr Hana Shafi" data-role="Associate Dentist" data-gdc="GDC: 310312" data-image="../assets/images/team/hana-shafi.jpg" data-bio="Dr Hana Shafi is an Associate Dentist specializing in preventive care, restorative work, and root canal therapy. She has a gentle clinical manner that helps put nervous patients at ease.">
                         <div class="team-card-img-wrapper">
-                            <img src="../assets/images/team/hana-shafi.jpg" onerror="this.src='../assets/images/team/emily.png'" alt="Dr Hana Shafi" class="team-card-img">
+                            <!-- <img src="../assets/images/team/hana-shafi.jpg" onerror="this.src='../assets/images/team/emily.png'" alt="Dr Hana Shafi" class="team-card-img"> -->
+                              <pre style=" margin-left:-120px;  height: 100%; width: 100%; display: flex;justify-content: center;align-items: center;text-align: center;">
+                               Coming soon...
+                           </pre> 
                         </div>
                         <div class="team-card-content">
                             <h3 class="team-name">Dr Hana Shafi</h3>
@@ -437,9 +465,13 @@ body.dark-theme .foh-placeholder-img-bg {
                         </div>
                     </div>
                     <!-- Card 3: Dr Rawan Kamil -->
-                    <div class="team-card" data-name="Dr Rawan Kamil" data-role="Associate Dentist" data-gdc="GDC: 325702" data-image="../assets/images/team/rawan-kamil.jpg" data-bio="Dr Rawan Kamil provides outstanding clinical care as an Associate Dentist, with a passion for cosmetic transformations, composite bonding, and general family dentistry.">
+                    <div class="team-card" data-name="Dr Rawan Kamil" data-role="Associate Dentist" data-gdc="GDC: 325702" data-image="../assets/images/rawan.jpeg" data-bio="Rawan graduated from Bucharest, Romania with a Doctor of Dental Medicine, with a 90% average. She is passionate about dentistry and the vital role it plays in overall health and quality of life.
+
+Rawan recognises that access to affordable dental care is a privilege not everyone has. This is why she has committed to volunteering every year in underprivileged parts of the world, providing essential treatments such as checkups, fillings, extractions, hygiene and fluoride applications in orphanages, schools, and emergency hospitals across Tanzania, Egypt, and Romania.
+
+Outside of dentistry, Rawan loves being in nature and often goes for walks in the park to clear her mind and enjoy the outdoors.">
                         <div class="team-card-img-wrapper">
-                            <img src="../assets/images/team/rawan-kamil.jpg" onerror="this.src='../assets/images/team/emily.png'" alt="Dr Rawan Kamil" class="team-card-img">
+                            <img src="../assets/images/rawan.jpeg" onerror="this.src='../assets/images/team/emily.png'" alt="Dr Rawan Kamil" class="team-card-img">
                         </div>
                         <div class="team-card-content">
                             <h3 class="team-name">Dr Rawan Kamil</h3>
@@ -451,7 +483,11 @@ body.dark-theme .foh-placeholder-img-bg {
                     <!-- Card 4: Dr Deesha Ramji -->
                     <div class="team-card" data-name="Dr Deesha Ramji" data-role="Associate Dentist" data-gdc="GDC: 84160" data-image="../assets/images/team/deesha-ramji.jpg" data-bio="Dr Deesha Ramji is a highly skilled Associate Dentist with extensive experience in aesthetic procedures, patient-first general treatments, and clear aligner therapies.">
                         <div class="team-card-img-wrapper">
-                            <img src="../assets/images/team/deesha-ramji.jpg" onerror="this.src='../assets/images/team/sophie.png'" alt="Dr Deesha Ramji" class="team-card-img">
+                            <!-- <img src="../assets/images/team/deesha-ramji.jpg" onerror="this.src='../assets/images/team/sophie.png'" alt="Dr Deesha Ramji" class="team-card-img"> -->
+
+                             <pre style=" margin-left:-120px;  height: 100%; width: 100%; display: flex;justify-content: center;align-items: center;text-align: center;">
+                               Coming soon...
+                           </pre> 
                         </div>
                         <div class="team-card-content">
                             <h3 class="team-name">Dr Deesha Ramji</h3>
@@ -461,9 +497,13 @@ body.dark-theme .foh-placeholder-img-bg {
                         </div>
                     </div>
                     <!-- Card 5: Dr Mohammed Maki -->
-                    <div class="team-card" data-name="Dr Mohammed Maki" data-role="Associate Dentist" data-gdc="GDC: 295609" data-image="../assets/images/team/mohammed-maki.jpg" data-bio="Dr Mohammed Maki is an Associate Dentist with a passion for modern, minimally invasive dental procedures. He excels in general restorative treatments and cosmetic dentistry while making every patient feel relaxed and informed.">
+                    <div class="team-card" data-name="Dr Mohammed Maki" data-role="Associate Dentist" data-gdc="GDC: 295609" data-image="../assets/images/mohmad_maki.jpeg" data-bio="After graduating from the University of Plymouth, Mohammed has enjoyed all aspects of general dentistry, with a particular interest in aesthetic dentistry and helping patients achieve healthy, confident smiles they can be proud of.
+
+Mohammed believes in providing gentle, patient-centred care and always take the time to listen to my patients, explain their treatment options clearly, and make every visit as comfortable and relaxed as possible.
+
+Outside of dentistry, he enjoys following football and basketball, keeping active, and spending time with family and friends.">
                         <div class="team-card-img-wrapper">
-                            <img src="../assets/images/team/mohammed-maki.jpg" onerror="this.src='../assets/images/team/michael.png'" alt="Dr Mohammed Maki" class="team-card-img">
+                            <img src="../assets/images/mohmad_maki.jpeg" onerror="this.src='../assets/images/team/michael.png'" alt="Dr Mohammed Maki" class="team-card-img">
                         </div>
                         <div class="team-card-content">
                             <h3 class="team-name">Dr Mohammed Maki</h3>
@@ -475,7 +515,10 @@ body.dark-theme .foh-placeholder-img-bg {
                     <!-- Card 6: Dr Rishil Lamba -->
                     <div class="team-card" data-name="Dr Rishil Lamba" data-role="Associate Dentist" data-gdc="GDC: 111524" data-image="../assets/images/team/rishil-lamba.jpg" data-bio="Dr Rishil Lamba is an Associate Dentist committed to excellence in all areas of general dentistry. He specializes in preventative care, restorative treatments, and root canal therapy, focused on patient comfort and high quality care.">
                         <div class="team-card-img-wrapper">
-                            <img src="../assets/images/team/rishil-lamba.jpg" onerror="this.src='../assets/images/team/michael.png'" alt="Dr Rishil Lamba" class="team-card-img">
+                            <!-- <img src="../assets/images/team/rishil-lamba.jpg" onerror="this.src='../assets/images/team/michael.png'" alt="Dr Rishil Lamba" class="team-card-img"> -->
+                              <pre style=" margin-left:-120px;  height: 100%; width: 100%; display: flex;justify-content: center;align-items: center;text-align: center;">
+                               Coming soon...
+                           </pre> 
                         </div>
                         <div class="team-card-content">
                             <h3 class="team-name">Dr Rishil Lamba</h3>
@@ -496,9 +539,11 @@ body.dark-theme .foh-placeholder-img-bg {
                 </div>
                 <div class="team-grid">
                     <!-- Card 1: Sara Moshtofar -->
-                    <div class="team-card" data-name="Sara Moshtofar" data-role="Dental Hygienist" data-gdc="" data-image="../assets/images/team/sara-moshtofar.jpg" data-bio="Sara Moshtofar is a dedicated Dental Hygienist, focused on thorough plaque removal, scaling, oral health maintenance, and providing patients with direct hygiene guidance.">
+                    <div class="team-card" data-name="Sara Moshtofar" data-role="Dental Hygienist" data-gdc="" data-image="../assets/images/sara.jpeg" data-bio="Sara qualified from the prestigious Barts and The London School of Medicine and Dentistry with a dual qualification in Dental Hygiene and Dental Therapy. Since qualifying, she has worked as a Dental Hygienist and Dental Therapist within practice, hospital and as part of the Community Dental Services.
+
+Sara always ensures to deliver patient-centred care and is diligent in delivering high quality care tailored to her patient’s needs. She takes pride in being part of her patient’s oral health journey, through raising awareness on prevention and motivation. She is passionate in helping the oral health needs of the nation and works hard to ensure that her patients leave the clinic with a happy, healthy smile. She does this by working together with dentists and the patient to ensure that all patients leave with a bespoke plan suited for their lifestyle. In her free time, Sara enjoys baking, reading, and travelling.">
                         <div class="team-card-img-wrapper">
-                            <img src="../assets/images/team/sara-moshtofar.jpg" onerror="this.src='../assets/images/team/sarah.png'" alt="Sara Moshtofar" class="team-card-img">
+                            <img src="../assets/images/sara.jpeg" onerror="this.src='../assets/images/team/sarah.png'" alt="Sara Moshtofar" class="team-card-img">
                         </div>
                         <div class="team-card-content">
                             <h3 class="team-name">Sara Moshtofar</h3>
@@ -510,7 +555,11 @@ body.dark-theme .foh-placeholder-img-bg {
                     <!-- Card 2: Jackie Jigmeddamba -->
                     <div class="team-card" data-name="Jackie Jigmeddamba" data-role="Dental Hygienist" data-gdc="GDC: 280230" data-image="../assets/images/team/jackie-jigmeddamba.jpg" data-bio="Jackie Jigmeddamba works closely with patients to prevent gum disease, delivering exceptional hygienist treatments, deep cleans, and customized oral hygiene routines.">
                         <div class="team-card-img-wrapper">
-                            <img src="../assets/images/team/jackie-jigmeddamba.jpg" onerror="this.src='../assets/images/team/sarah.png'" alt="Jackie Jigmeddamba" class="team-card-img">
+                            <!-- <img src="../assets/images/team/jackie-jigmeddamba.jpg" onerror="this.src='../assets/images/team/sarah.png'" alt="Jackie Jigmeddamba" class="team-card-img"> -->
+
+                             <pre style=" margin-left:-120px;  height: 100%; width: 100%; display: flex;justify-content: center;align-items: center;text-align: center;">
+                               Coming soon...
+                           </pre> 
                         </div>
                         <div class="team-card-content">
                             <h3 class="team-name">Jackie Jigmeddamba</h3>
@@ -522,7 +571,11 @@ body.dark-theme .foh-placeholder-img-bg {
                     <!-- Card 3: Vaish Panchal -->
                     <div class="team-card" data-name="Vaish Panchal" data-role="Dental Hygienist" data-gdc="GDC: 311286" data-image="../assets/images/team/vaish-panchal.jpg" data-bio="Vaish Panchal is an experienced Dental Hygienist specializing in deep scaling, stain removal, and educating patients on optimal home care routines for healthy gums.">
                         <div class="team-card-img-wrapper">
-                            <img src="../assets/images/team/vaish-panchal.jpg" onerror="this.src='../assets/images/team/sarah.png'" alt="Vaish Panchal" class="team-card-img">
+                            <!-- <img src="../assets/images/team/vaish-panchal.jpg" onerror="this.src='../assets/images/team/sarah.png'" alt="Vaish Panchal" class="team-card-img"> -->
+
+                             <pre style=" margin-left:-120px;  height: 100%; width: 100%; display: flex;justify-content: center;align-items: center;text-align: center;">
+                               Coming soon...
+                           </pre> 
                         </div>
                         <div class="team-card-content">
                             <h3 class="team-name">Vaish Panchal</h3>
@@ -545,7 +598,11 @@ body.dark-theme .foh-placeholder-img-bg {
                     <!-- Card 1: Ghezala Benmoulai -->
                     <div class="team-card" data-name="Ghezala Benmoulai" data-role="Dental Nurse" data-gdc="" data-image="../assets/images/team/ghezala-benmoulai.jpg" data-bio="Ghezala Benmoulai supports our clinical staff as a Dental Nurse, maintaining strict hygiene standards, sterilization protocols, and assisting during complex dental procedures.">
                         <div class="team-card-img-wrapper">
-                            <img src="../assets/images/team/ghezala-benmoulai.jpg" onerror="this.src='../assets/images/team/sarah.png'" alt="Ghezala Benmoulai" class="team-card-img">
+                            <!-- <img src="../assets/images/team/ghezala-benmoulai.jpg" onerror="this.src='../assets/images/team/sarah.png'" alt="Ghezala Benmoulai" class="team-card-img"> -->
+
+                             <pre style=" margin-left:-120px;  height: 100%; width: 100%; display: flex;justify-content: center;align-items: center;text-align: center;">
+                               Coming soon...
+                           </pre> 
                         </div>
                         <div class="team-card-content">
                             <h3 class="team-name">Ghezala Benmoulai</h3>
@@ -555,21 +612,24 @@ body.dark-theme .foh-placeholder-img-bg {
                         </div>
                     </div>
                     <!-- Card 2: Rickey Lama Sherpa -->
-                    <div class="team-card" data-name="Rickey Lama Sherpa" data-role="Trainee Dental Nurse" data-gdc="" data-image="../assets/images/team/rickey-lama-sherpa.jpg" data-bio="Rickey Lama Sherpa is a Trainee Dental Nurse, assisting in patient care and sterilization protocols while completing clinical qualifications.">
+                    <div class="team-card" data-name="Rickey Lama Sherpa" data-role="Trainee Dental Nurse" data-gdc="" data-image="../assets/images/ricky.jpeg" data-bio="Rickey Lama Sherpa is a Trainee Dental Nurse, assisting in patient care and sterilization protocols while completing clinical qualifications.">
                         <div class="team-card-img-wrapper">
-                            <img src="../assets/images/team/rickey-lama-sherpa.jpg" onerror="this.src='../assets/images/team/michael.png'" alt="Rickey Lama Sherpa" class="team-card-img">
+                            <img src="../assets/images/ricky.jpeg" onerror="this.src='../assets/images/team/michael.png'" alt="Rickey Lama Sherpa" class="team-card-img">
                         </div>
                         <div class="team-card-content">
                             <h3 class="team-name">Rickey Lama Sherpa</h3>
                             <div class="team-role">Trainee Dental Nurse</div>
                             <p class="team-desc">&nbsp;</p>
-                            <div class="team-learn-more">Learn More <i class="fa-solid fa-arrow-right"></i></div>
+                            <!-- <div class="team-learn-more">Learn More <i class="fa-solid fa-arrow-right"></i></div> -->
                         </div>
                     </div>
                     <!-- Card 3: Samet Karahan -->
                     <div class="team-card" data-name="Samet Karahan" data-role="Trainee Dental Nurse" data-gdc="" data-image="../assets/images/team/samet-karahan.jpg" data-bio="Samet Karahan is a Trainee Dental Nurse, focused on clinical preparation, surgery hygiene, and ensuring patients feel relaxed and supported during their visits.">
                         <div class="team-card-img-wrapper">
-                            <img src="../assets/images/team/samet-karahan.jpg" onerror="this.src='../assets/images/team/michael.png'" alt="Samet Karahan" class="team-card-img">
+                            <!-- <img src="../assets/images/team/samet-karahan.jpg" onerror="this.src='../assets/images/team/michael.png'" alt="Samet Karahan" class="team-card-img"> -->
+                              <pre style=" margin-left:-120px;  height: 100%; width: 100%; display: flex;justify-content: center;align-items: center;text-align: center;">
+                               Coming soon...
+                           </pre> 
                         </div>
                         <div class="team-card-content">
                             <h3 class="team-name">Samet Karahan</h3>
@@ -590,7 +650,7 @@ body.dark-theme .foh-placeholder-img-bg {
                 </div>
                 <div class="team-grid">
                     <!-- Placeholder Card 1 -->
-                    <div class="team-card foh-placeholder-card" data-name="Patient Coordinator" data-role="Receptionist / Care Coordinator" data-gdc="" data-image="../assets/images/team/sarah.png" data-bio="Our friendly reception team is here to help you coordinate your appointments and make your visit as smooth as possible. We look forward to welcoming you soon.">
+                    <!-- <div class="team-card foh-placeholder-card" data-name="Patient Coordinator" data-role="Receptionist / Care Coordinator" data-gdc="" data-image="../assets/images/team/sarah.png" data-bio="Our friendly reception team is here to help you coordinate your appointments and make your visit as smooth as possible. We look forward to welcoming you soon.">
                         <div class="team-card-img-wrapper">
                             <div class="foh-placeholder-img-bg">
                                 <i class="fa-solid fa-user-plus"></i>
@@ -602,23 +662,24 @@ body.dark-theme .foh-placeholder-img-bg {
                             <p class="team-desc">&nbsp;</p>
                             <div class="team-learn-more">Learn More <i class="fa-solid fa-arrow-right"></i></div>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- Placeholder Card 2 -->
-                    <div class="team-card foh-placeholder-card" data-name="Receptionist" data-role="Receptionist / Care Coordinator" data-gdc="" data-image="../assets/images/team/emily.png" data-bio="Our patient care coordinators ensure a seamless journey from booking your consultation to completing your custom treatment plan.">
+                    <div class="team-card foh-placeholder-card" data-name="Receptionist" data-role="Receptionist / Care Coordinator" data-gdc="" data-image="#" data-bio="Our patient care coordinators ensure a seamless journey from booking your consultation to completing your custom treatment plan.">
                         <div class="team-card-img-wrapper">
                             <div class="foh-placeholder-img-bg">
                                 <i class="fa-solid fa-user-plus"></i>
                             </div>
                         </div>
                         <div class="team-card-content">
-                            <h3 class="team-name">Receptionist</h3>
-                            <div class="team-role">Front of House</div>
+                            <h3 class="team-name">Hina Farooq</h3>
+                            <!-- <h3 class="team-name" style="font-size:16px">Receptionist</h3> -->
+                            <div class="team-role">Receptionist</div>
                             <p class="team-desc">&nbsp;</p>
                             <div class="team-learn-more">Learn More <i class="fa-solid fa-arrow-right"></i></div>
                         </div>
                     </div>
                     <!-- Placeholder Card 3 -->
-                    <div class="team-card foh-placeholder-card" data-name="Practice Ambassador" data-role="Patient Care Coordinator" data-gdc="" data-image="../assets/images/team/michael.png" data-bio="We are always expanding our front desk team to provide the highest level of personal service and patient care.">
+                    <!-- <div class="team-card foh-placeholder-card" data-name="Practice Ambassador" data-role="Patient Care Coordinator" data-gdc="" data-image="../assets/images/team/michael.png" data-bio="We are always expanding our front desk team to provide the highest level of personal service and patient care.">
                         <div class="team-card-img-wrapper">
                             <div class="foh-placeholder-img-bg">
                                 <i class="fa-solid fa-user-plus"></i>
@@ -630,7 +691,7 @@ body.dark-theme .foh-placeholder-img-bg {
                             <p class="team-desc">&nbsp;</p>
                             <div class="team-learn-more">Learn More <i class="fa-solid fa-arrow-right"></i></div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <!-- CTA Section -->

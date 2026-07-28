@@ -641,7 +641,7 @@ body.dark-theme .related-link-card {
             <!-- Right Column -->
             <div class="col-lg-6">
                 <div class="hero-image-wrapper">
-                    <img src="../assets/images/general.png" alt="Dental check-up at Icon Dental Wembley">
+                    <img src="../assets/images/checkmyteeth.jpeg" alt="Dental check-up at Icon Dental Wembley">
                 </div>
             </div>
         </div>
@@ -663,7 +663,7 @@ body.dark-theme .related-link-card {
                 <div class="td-icon-box"><i class="fa-solid fa-tooth"></i></div>
                 <h3 class="td-title">Dental Check-up</h3>
                 <p class="td-desc">A comprehensive assessment of your teeth, gums, and oral soft tissues, including oral cancer screenings and diagnostic review.</p>
-                <span class="td-link">Read Details <i class="fa-solid fa-arrow-right"></i></span>
+                <!-- <span class="td-link">Read Details <i class="fa-solid fa-arrow-right"></i></span> -->
             </div>
 
             <!-- Service 2 -->
@@ -671,7 +671,7 @@ body.dark-theme .related-link-card {
                 <div class="td-icon-box"><i class="fa-solid fa-pump-medical"></i></div>
                 <h3 class="td-title">Hygiene & Cleanings</h3>
                 <p class="td-desc">Professional scaling and polishing to remove stubborn plaque, tartar, and surface staining for optimal gum health.</p>
-                <span class="td-link">Read Details <i class="fa-solid fa-arrow-right"></i></span>
+                <!-- <span class="td-link">Read Details <i class="fa-solid fa-arrow-right"></i></span> -->
             </div>
 
             <!-- Service 3 -->
@@ -679,7 +679,7 @@ body.dark-theme .related-link-card {
                 <div class="td-icon-box"><i class="fa-solid fa-shield-halved"></i></div>
                 <h3 class="td-title">Gum Health Care</h3>
                 <p class="td-desc">Targeted treatments for periodontal disease to halt gum recession, bleeding, and prevent long-term tooth loss.</p>
-                <span class="td-link">Read Details <i class="fa-solid fa-arrow-right"></i></span>
+                <!-- <span class="td-link">Read Details <i class="fa-solid fa-arrow-right"></i></span> -->
             </div>
 
             <!-- Service 4 -->
@@ -687,7 +687,7 @@ body.dark-theme .related-link-card {
                 <div class="td-icon-box"><i class="fa-solid fa-kit-medical"></i></div>
                 <h3 class="td-title">Emergency Dentistry</h3>
                 <p class="td-desc">Same-day urgent appointments to diagnose and treat sudden dental pain, infections, or broken teeth.</p>
-                <span class="td-link">Read Details <i class="fa-solid fa-arrow-right"></i></span>
+                <!-- <span class="td-link">Read Details <i class="fa-solid fa-arrow-right"></i></span> -->
             </div>
         </div>
     </div>
@@ -759,14 +759,14 @@ body.dark-theme .related-link-card {
         <div class="gallery-grid">
             <div class="gallery-item">
                 <div class="gallery-img-wrapper">
-                    Before Treatment (Stain & Tartar Build-up)
+                   <img src="../assets/images/teethbefore.jpeg" style="width: 100%;" alt="">
                     <div class="gallery-label">Before</div>
                 </div>
                 <h4 class="gallery-caption">Initial Assessment</h4>
             </div>
             <div class="gallery-item">
                 <div class="gallery-img-wrapper">
-                    After Professional Polish & Scale
+                    <img src="../assets/images/teethafter.jpeg" style="width: 100%;" alt="">
                     <div class="gallery-label" style="background:#b1986f;">After</div>
                 </div>
                 <h4 class="gallery-caption">Post Professional Hygiene</h4>

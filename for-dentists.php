@@ -44,7 +44,7 @@ include __DIR__ . '/includes/header.php';
                 <div class="col-lg-6">
                     <div class="hero-image-wrapper">
                         <!-- Using Unsplash image matching description since generation quota exhausted -->
-                        <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Professional healthcare handshake" class="hero-image">
+                        <img src="assets/images/kishan seth.jpeg" alt="Professional healthcare handshake" class="hero-image">
                         
                         <!-- <div class="floating-card">
                             <div class="fc-icon"><i class="fa-solid fa-tooth"></i></div>
@@ -123,7 +123,7 @@ include __DIR__ . '/includes/header.php';
                         <h3 class="cta-title">Refer a Patient Today</h3>
                         <p class="cta-text">We're here to provide the best possible care for your patients.</p>
                         <a href="referral-form.php" class="btn-primary-custom w-100 mb-3"><i class="fa-solid fa-file-lines"></i> Submit Referral</a>
-                        <a href="#" class="btn-outline-custom w-100"><i class="fa-solid fa-phone"></i> Call Us</a>
+                        <a href="tel:<?php echo str_replace(' ', '', $clinic_phone); ?>" class="btn-outline-custom w-100"><i class="fa-solid fa-phone"></i> Call Us</a>
                     </div>
                 </div>
             </div>

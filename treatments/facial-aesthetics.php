@@ -663,7 +663,7 @@ body.dark-theme .related-link-card {
                 <div class="td-icon-box"><i class="fa-solid fa-tooth"></i></div>
                 <h3 class="td-title">Anti-Wrinkle Treatments</h3>
                 <p class="td-desc">Targeted injections designed to temporarily relax muscles, softening dynamic frown lines and crow's feet for a smoother look.</p>
-                <span class="td-link">Read Details <i class="fa-solid fa-arrow-right"></i></span>
+                <!-- <span class="td-link">Read Details <i class="fa-solid fa-arrow-right"></i></span> -->
             </div>
 
             <!-- Service 2 -->
@@ -671,7 +671,7 @@ body.dark-theme .related-link-card {
                 <div class="td-icon-box"><i class="fa-solid fa-pump-medical"></i></div>
                 <h3 class="td-title">Dermal Fillers</h3>
                 <p class="td-desc">Hyaluronic acid gel injections that immediately restore youthful volume to cheeks, nasolabial lines, and jaw contours.</p>
-                <span class="td-link">Read Details <i class="fa-solid fa-arrow-right"></i></span>
+                <!-- <span class="td-link">Read Details <i class="fa-solid fa-arrow-right"></i></span> -->
             </div>
 
             <!-- Service 3 -->
@@ -679,7 +679,7 @@ body.dark-theme .related-link-card {
                 <div class="td-icon-box"><i class="fa-solid fa-shield-halved"></i></div>
                 <h3 class="td-title">Lip Enhancement</h3>
                 <p class="td-desc">Custom lip treatments to enhance contour, correct asymmetry, and add soft, hydrated volume tailored to your lips.</p>
-                <span class="td-link">Read Details <i class="fa-solid fa-arrow-right"></i></span>
+                <!-- <span class="td-link">Read Details <i class="fa-solid fa-arrow-right"></i></span> -->
             </div>
 
             <!-- Service 4 -->
@@ -687,7 +687,7 @@ body.dark-theme .related-link-card {
                 <div class="td-icon-box"><i class="fa-solid fa-kit-medical"></i></div>
                 <h3 class="td-title">Skin Rejuvenation</h3>
                 <p class="td-desc">Collagen-boosting treatments that exfoliate, hydrate, and refresh skin cells for a radiant complexion.</p>
-                <span class="td-link">Read Details <i class="fa-solid fa-arrow-right"></i></span>
+                <!-- <span class="td-link">Read Details <i class="fa-solid fa-arrow-right"></i></span> -->
             </div>
         </div>
     </div>
@@ -759,14 +759,14 @@ body.dark-theme .related-link-card {
         <div class="gallery-grid">
             <div class="gallery-item">
                 <div class="gallery-img-wrapper">
-                    Before (Visible Dynamic Wrinkles & Volume Loss)
+                    <img src="../assets/images/before-lips.jpeg" style="width:100%;" alt="">
                     <div class="gallery-label">Before</div>
                 </div>
                 <h4 class="gallery-caption">Pre-Treatment Analysis</h4>
             </div>
             <div class="gallery-item">
                 <div class="gallery-img-wrapper">
-                    After (Smoothed Forehead & Volumized Lips)
+                    <img src="../assets/images/facial.jpeg" style="width:100%;" alt="">
                     <div class="gallery-label" style="background:#b1986f;">After</div>
                 </div>
                 <h4 class="gallery-caption">Completed Rejuvenation</h4>

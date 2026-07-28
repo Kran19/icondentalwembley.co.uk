@@ -641,7 +641,7 @@ body.dark-theme .related-link-card {
             <!-- Right Column -->
             <div class="col-lg-6">
                 <div class="hero-image-wrapper">
-                    <img src="../assets/images/general.png" alt="Restorative dentistry at Icon Dental Wembley">
+                    <img src="../assets/images/operation 2.png" alt="Restorative dentistry at Icon Dental Wembley">
                 </div>
             </div>
         </div>
@@ -663,7 +663,7 @@ body.dark-theme .related-link-card {
                 <div class="td-icon-box"><i class="fa-solid fa-tooth"></i></div>
                 <h3 class="td-title">Tooth Fillings</h3>
                 <p class="td-desc">Premium composite fillings match your enamel shade perfectly, sealing cavities to restore strength and prevent secondary decay.</p>
-                <span class="td-link">Read Details <i class="fa-solid fa-arrow-right"></i></span>
+                <!-- <span class="td-link">Read Details <i class="fa-solid fa-arrow-right"></i></span> -->
             </div>
 
             <!-- Service 2 -->
@@ -671,7 +671,7 @@ body.dark-theme .related-link-card {
                 <div class="td-icon-box"><i class="fa-solid fa-pump-medical"></i></div>
                 <h3 class="td-title">Root Canal Treatment</h3>
                 <p class="td-desc">A safe, gentle procedure to clear out dental nerve infections and protect the tooth from extraction.</p>
-                <span class="td-link">Read Details <i class="fa-solid fa-arrow-right"></i></span>
+                <!-- <span class="td-link">Read Details <i class="fa-solid fa-arrow-right"></i></span> -->
             </div>
 
             <!-- Service 3 -->
@@ -679,7 +679,7 @@ body.dark-theme .related-link-card {
                 <div class="td-icon-box"><i class="fa-solid fa-shield-halved"></i></div>
                 <h3 class="td-title">Dental Crowns</h3>
                 <p class="td-desc">Custom ceramic or porcelain caps that fit over weak or heavily filled teeth, restoring shape, size, and ultimate durability.</p>
-                <span class="td-link">Read Details <i class="fa-solid fa-arrow-right"></i></span>
+                <!-- <span class="td-link">Read Details <i class="fa-solid fa-arrow-right"></i></span> -->
             </div>
 
             <!-- Service 4 -->
@@ -687,7 +687,7 @@ body.dark-theme .related-link-card {
                 <div class="td-icon-box"><i class="fa-solid fa-kit-medical"></i></div>
                 <h3 class="td-title">Dental Bridges</h3>
                 <p class="td-desc">Fixed dental prosthetics anchored to neighboring teeth to bridge the gap left by missing teeth naturally.</p>
-                <span class="td-link">Read Details <i class="fa-solid fa-arrow-right"></i></span>
+                <!-- <span class="td-link">Read Details <i class="fa-solid fa-arrow-right"></i></span> -->
             </div>
         </div>
     </div>
@@ -759,14 +759,14 @@ body.dark-theme .related-link-card {
         <div class="gallery-grid">
             <div class="gallery-item">
                 <div class="gallery-img-wrapper">
-                    Before (Damaged & Decayed Enamel)
+                    <img src="../assets/images/teethbeforedada.jpeg" alt="" style="width: 100%;height:500px;">
                     <div class="gallery-label">Before</div>
                 </div>
                 <h4 class="gallery-caption">Initial Presentation</h4>
             </div>
             <div class="gallery-item">
                 <div class="gallery-img-wrapper">
-                    After (Custom Tooth-coloured Composite Finish)
+                     <img src="../assets/images/dada-after.jpeg" alt="" style="width: 100%;height:500px;">
                     <div class="gallery-label" style="background:#b1986f;">After</div>
                 </div>
                 <h4 class="gallery-caption">Completed Restoration</h4>
